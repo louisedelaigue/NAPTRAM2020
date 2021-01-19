@@ -12,10 +12,10 @@ file_list = [file for file in os.listdir('./data/UWS') if
                   '_'.join(file.split('_')) in db.pH_optN.values]
 
 # create loop to extract data
-data = {} # tell python this is an empty dict so we can put the tables in
+data_dict = {} # tell python this is an empty dict so we can put the tables in
 for file in file_list:
     fname = "./data/UWS/{}/{}.txt".format(file,file)
-    data[file] = pd.read_table(fname, skiprows=22, encoding="unicode_escape")
+    data_dict[file] = pd.read_table(fname, skiprows=22, encoding="unicode_escape")
 
 # rename headers of df inside dict and get rid off empty columns
 rn = {
@@ -27,8 +27,8 @@ rn = {
       }
 
 for file in file_list:
-    data[file].rename(rn, axis=1, inplace=True)
-    data[file].drop(columns=["Date [Comment]",
+    data_dict[file].rename(rn, axis=1, inplace=True)
+    data_dict[file].drop(columns=["Date [Comment]",
                     "Time [Comment]",
                     "Comment",
                     "Unnamed: 23",
@@ -39,4 +39,7 @@ for file in file_list:
                     "Unnamed: 28",
                     "Unnamed: 29"],
                     inplace=True)
-    data[file].dropna()
+    data_dict[file].dropna()
+    
+# turn dict into single df
+data = pd.concat(data_dict.values(), ignore_index=True)
