@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export type="datalog">
+   <order>
+      <output type="TXT" user="LD" exportevents="false" limitfilesize="false">STN1_underway_metadata</output>
+   </order>
+   <description>
+      <time filtered="true">
+         <starttime>1607457600</starttime>
+         <endtime>1607536800</endtime>
+         <interval displayunit="s">1000</interval>
+      </time>
+      <fileformat separator="\t" endofrecordmarker="\n" datetimeformat="YYYY/MM/DD HH:mm:ss" decimalsymbol="." headerrow="true" fillvalue="false"/>
+      <channellist errorvaluenumeric="9" errorvaluealphanumeric=" " includeinvalidvalues="false" skipinvalidlines="false" fittoformat="false">
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Chl</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="4" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.C_SBE45</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="1" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Date</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="123" precision="0" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Delay</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="1" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Depth</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.EW</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="2" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Flow</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="54° 12.345' N" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Latitude</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="154° 12.345' E" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Longitude</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.Name</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.NS</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.RVK</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="4" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Sal_SBE45</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.Sentence</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="abc" precision="0">SMB.RSSMB.SMB_SN</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.SV_SBE45</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.SV_insito</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="123" precision="0" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Status</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="3" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.SV_AML</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="4" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.T_SBE38</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="4" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.T_SBE45</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="std_date_time" precision="1" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Time</channel>
+         <channel fieldwidth="0" samples="false" spot="true" valuevalidity="false" format="1.23" precision="4" min="false" max="false" mean="false" variance="false" stddev="false" meanvalidity="false" angle="none">SMB.RSSMB.Tur</channel>
+      </channellist>
+   </description>
+</export>

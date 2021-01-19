@@ -1,0 +1,2082 @@
+
+04/24/2018 18:45:12 Data Conversion is starting up, version 7.26.1.8
+04/24/2018 18:46:07 Data Conversion is shutting down.
+
+04/24/2018 18:46:11 Data Conversion is starting up, version 7.26.1.8
+04/24/2018 18:52:36 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-058CTD_raw\SO262-058.hex'.
+04/24/2018 18:52:39 DatCnvImp is exiting.
+04/24/2018 18:53:38 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-058CTD_raw\SO262-058.hex'.
+04/24/2018 18:53:41 DatCnvImp is exiting.
+04/24/2018 18:53:52 Data Conversion is shutting down.
+
+04/24/2018 18:53:55 Bin Average is starting up, version 7.26.1.8
+04/24/2018 18:56:15 Bin Average is shutting down.
+
+04/24/2018 18:56:17 Data Conversion is starting up, version 7.26.1.8
+04/24/2018 18:57:08 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-061CTD_raw\SO262-061.hex'.
+04/24/2018 18:57:17 DatCnvImp is exiting.
+04/24/2018 18:57:52 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-061CTD_raw\SO262-061.hex'.
+04/24/2018 18:57:58 DatCnvImp is exiting.
+04/24/2018 18:58:04 Data Conversion is shutting down.
+
+04/24/2018 18:58:07 Bin Average is starting up, version 7.26.1.8
+04/24/2018 18:59:12 Bin Average is shutting down.
+
+04/25/2018 21:11:12 Data Conversion is starting up, version 7.26.1.8
+04/25/2018 21:12:46 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-070CTD_raw\SO262-070.hex'.
+04/25/2018 21:12:49 DatCnvImp is exiting.
+04/25/2018 21:12:56 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-070CTD_raw\SO262-070.hex'.
+04/25/2018 21:13:01 DatCnvImp is exiting.
+04/25/2018 21:13:30 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-070CTD_raw\SO262-070.hex'.
+04/25/2018 21:13:37 DatCnvImp is exiting.
+04/25/2018 21:13:40 Data Conversion is shutting down.
+
+04/25/2018 21:13:44 Bin Average is starting up, version 7.26.1.8
+04/25/2018 21:15:08 Bin Average is shutting down.
+
+05/03/2018 17:48:06 Data Conversion is starting up, version 7.26.1.8
+05/03/2018 17:49:54 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-105CTD_raw\SO262-105.hex'.
+05/03/2018 17:49:57 DatCnvImp is exiting.
+05/03/2018 18:16:33 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-105CTD_raw\SO262-105.hex'.
+05/03/2018 18:16:35 DatCnvImp is exiting.
+05/03/2018 18:16:49 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-105CTD_raw\SO262-105.hex'.
+05/03/2018 18:16:52 DatCnvImp is exiting.
+05/03/2018 18:16:59 Data Conversion is shutting down.
+
+05/03/2018 18:17:03 Bin Average is starting up, version 7.26.1.8
+05/03/2018 18:21:17 Bin Average is shutting down.
+
+05/08/2018 20:04:17 Data Conversion is starting up, version 7.26.1.8
+05/08/2018 20:05:15 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-153CTD_raw\SO262_121CTD.hex'.
+05/08/2018 20:05:18 DatCnvImp is exiting.
+05/08/2018 20:05:44 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-153CTD_raw\SO262_121CTD.hex'.
+05/08/2018 20:05:47 DatCnvImp is exiting.
+05/08/2018 20:05:51 Data Conversion is shutting down.
+
+05/08/2018 20:07:03 Bin Average is starting up, version 7.26.1.8
+05/08/2018 20:08:00 Bin Average is shutting down.
+
+05/17/2018 17:15:56 Data Conversion is starting up, version 7.26.1.8
+05/17/2018 17:18:26 Data Conversion is shutting down.
+
+05/17/2018 17:19:05 Data Conversion is starting up, version 7.26.1.8
+05/17/2018 17:24:39 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-169CTD_raw\SO262_169CTD.hex'.
+05/17/2018 17:25:07 DatCnvImp is exiting.
+05/17/2018 17:25:39 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-169CTD_raw\SO262_169CTD.hex'.
+05/17/2018 17:26:05 DatCnvImp is exiting.
+05/17/2018 17:26:26 Data Conversion is shutting down.
+
+05/17/2018 17:27:00 Bin Average is starting up, version 7.26.1.8
+05/20/2018 23:42:58 Bin Average is shutting down.
+
+05/20/2018 23:43:04 Data Conversion is starting up, version 7.26.1.8
+05/20/2018 23:45:53 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_int_memory.hex'.
+05/20/2018 23:46:07 DatCnvImp is exiting.
+05/20/2018 23:46:52 Data Conversion is shutting down.
+
+05/20/2018 23:47:00 Bin Average is starting up, version 7.26.1.8
+05/20/2018 23:54:48 Bin Average is shutting down.
+
+05/20/2018 23:54:51 Data Conversion is starting up, version 7.26.1.8
+05/20/2018 23:57:16 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-049STR\SO262-049STR_CTD\SO262-049STR_CTD_int_memory.hex'.
+05/20/2018 23:57:23 DatCnvImp is exiting.
+05/20/2018 23:57:32 Data Conversion is shutting down.
+
+05/20/2018 23:57:51 Bin Average is starting up, version 7.26.1.8
+05/20/2018 23:58:54 Bin Average is shutting down.
+
+05/20/2018 23:59:29 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 00:00:12 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_int_memory.hex'.
+05/21/2018 00:00:22 DatCnvImp is exiting.
+05/21/2018 00:00:26 Data Conversion is shutting down.
+
+05/21/2018 00:00:29 Bin Average is starting up, version 7.26.1.8
+05/21/2018 00:01:09 Bin Average is shutting down.
+
+05/21/2018 00:01:13 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 00:02:10 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-060STR\SO262-060STR_CTD\SO262-060STR_CTD_int_memory.hex'.
+05/21/2018 00:02:14 DatCnvImp is exiting.
+05/21/2018 00:02:18 Data Conversion is shutting down.
+
+05/21/2018 00:02:21 Bin Average is starting up, version 7.26.1.8
+05/21/2018 00:02:46 Bin Average is shutting down.
+
+05/21/2018 00:02:49 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 00:03:35 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-102STR\SO262-102STR_CTD\SO262-102STR_CTD_int_memory.hex'.
+05/21/2018 00:03:47 DatCnvImp is exiting.
+05/21/2018 00:03:49 Data Conversion is shutting down.
+
+05/21/2018 00:03:52 Bin Average is starting up, version 7.26.1.8
+05/21/2018 00:04:18 Bin Average is shutting down.
+
+05/21/2018 00:04:20 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 00:05:06 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-131STR\SO262-131STR_CTD\SO262-131STR_CTD_int_memory.hex'.
+05/21/2018 00:05:15 DatCnvImp is exiting.
+05/21/2018 00:05:25 Data Conversion is shutting down.
+
+05/21/2018 00:05:28 Bin Average is starting up, version 7.26.1.8
+05/21/2018 00:06:22 Bin Average is shutting down.
+
+05/21/2018 00:06:24 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 00:08:24 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-168STR\SO262-168STR_CTD\SO262-168STR_CTD_online.hex'.
+05/21/2018 00:08:42 DatCnvImp is exiting.
+05/21/2018 00:08:46 Data Conversion is shutting down.
+
+05/21/2018 00:08:49 Bin Average is starting up, version 7.26.1.8
+05/21/2018 00:09:33 Bin Average is shutting down.
+
+05/21/2018 00:09:35 Data Conversion is starting up, version 7.26.1.8
+05/21/2018 02:30:15 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_int_memory.hex'.
+05/21/2018 02:30:24 DatCnvImp is exiting.
+05/21/2018 02:30:29 Data Conversion is shutting down.
+
+05/21/2018 02:30:31 Bin Average is starting up, version 7.26.1.8
+05/21/2018 02:34:07 Bin Average is shutting down.
+
+05/21/2018 02:34:09 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:34:09 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-049STR\SO262-049STR_CTD\SO262-049STR_CTD_int_memory.hex'.
+05/23/2018 20:34:22 DatCnvImp is exiting.
+05/23/2018 20:34:24 Data Conversion is shutting down.
+
+05/23/2018 20:34:28 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:35:08 Bin Average is shutting down.
+
+05/23/2018 20:35:12 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:35:48 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-060STR\SO262-060STR_CTD\SO262-060STR_CTD_int_memory.hex'.
+05/23/2018 20:35:55 DatCnvImp is exiting.
+05/23/2018 20:35:58 Data Conversion is shutting down.
+
+05/23/2018 20:36:00 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:36:30 Bin Average is shutting down.
+
+05/23/2018 20:36:32 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:37:38 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-102STR\SO262-102STR_CTD\SO262-102STR_CTD_int_memory.hex'.
+05/23/2018 20:37:57 DatCnvImp is exiting.
+05/23/2018 20:38:00 Data Conversion is shutting down.
+
+05/23/2018 20:38:03 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:38:45 Bin Average is shutting down.
+
+05/23/2018 20:38:47 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:39:54 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-131STR\SO262-131STR_CTD\SO262-131STR_CTD_int_memory.hex'.
+05/23/2018 20:40:03 DatCnvImp is exiting.
+05/23/2018 20:40:07 Data Conversion is shutting down.
+
+05/23/2018 20:40:10 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:40:41 Bin Average is shutting down.
+
+05/23/2018 20:40:43 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:41:32 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-168STR\SO262-168STR_CTD\SO262-168STR_CTD_online.hex'.
+05/23/2018 20:41:41 DatCnvImp is exiting.
+05/23/2018 20:41:50 Data Conversion is shutting down.
+
+05/23/2018 20:41:57 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:42:21 Bin Average is shutting down.
+
+05/23/2018 20:54:35 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:55:19 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-168STR\SO262-168STR_CTD\SO262-168STR_CTD_online.hex'.
+05/23/2018 20:55:43 Data Conversion is shutting down.
+
+05/23/2018 20:56:13 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 20:56:54 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_int_memory.hex'.
+05/23/2018 20:57:02 DatCnvImp is exiting.
+05/23/2018 20:57:06 Data Conversion is shutting down.
+
+05/23/2018 20:57:08 Bin Average is starting up, version 7.26.1.8
+05/23/2018 20:57:54 Bin Average is shutting down.
+
+05/23/2018 21:34:01 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 21:35:20 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_int_memory.hex'.
+05/23/2018 21:35:30 DatCnvImp is exiting.
+05/23/2018 21:35:34 Data Conversion is shutting down.
+
+05/23/2018 21:35:43 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 21:37:57 ASCII Out is shutting down.
+
+05/23/2018 21:38:02 Bin Average is starting up, version 7.26.1.8
+05/23/2018 21:38:29 Bin Average is shutting down.
+
+05/23/2018 21:38:32 Bin Average is starting up, version 7.26.1.8
+05/23/2018 21:39:05 Bin Average is shutting down.
+
+05/23/2018 21:39:11 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 21:39:36 ASCII Out is shutting down.
+
+05/23/2018 21:45:51 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 21:47:11 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-030STR\SO262-030STR_CTD\SO262-030STR_CTD_online.hex'.
+05/23/2018 21:47:23 DatCnvImp is exiting.
+05/23/2018 21:48:07 Data Conversion is shutting down.
+
+05/23/2018 21:48:11 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 21:48:51 ASCII Out is shutting down.
+
+05/23/2018 21:54:44 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 21:55:06 Data Conversion is shutting down.
+
+05/23/2018 21:56:04 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 21:57:02 ASCII Out is shutting down.
+
+05/23/2018 21:59:23 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:00:18 ASCII Out is shutting down.
+
+05/23/2018 22:03:05 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:03:37 ASCII Out is shutting down.
+
+05/23/2018 22:05:47 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:06:25 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-049STR\SO262-049STR_CTD\SO262-049STR_CTD_int_memory.hex'.
+05/23/2018 22:06:33 DatCnvImp is exiting.
+05/23/2018 22:06:36 Data Conversion is shutting down.
+
+05/23/2018 22:06:38 Bin Average is starting up, version 7.26.1.8
+05/23/2018 22:07:05 Bin Average is shutting down.
+
+05/23/2018 22:07:08 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:07:44 ASCII Out is shutting down.
+
+05/23/2018 22:07:47 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:08:25 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-060STR\SO262-060STR_CTD\SO262-060STR_CTD_int_memory.hex'.
+05/23/2018 22:08:30 DatCnvImp is exiting.
+05/23/2018 22:08:33 Data Conversion is shutting down.
+
+05/23/2018 22:08:35 Bin Average is starting up, version 7.26.1.8
+05/23/2018 22:08:59 Bin Average is shutting down.
+
+05/23/2018 22:09:02 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:09:30 ASCII Out is shutting down.
+
+05/23/2018 22:09:32 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:10:18 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-102STR\SO262-102STR_CTD\SO262-102STR_CTD_int_memory.hex'.
+05/23/2018 22:10:32 DatCnvImp is exiting.
+05/23/2018 22:10:42 Data Conversion is shutting down.
+
+05/23/2018 22:13:52 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:13:58 Data Conversion is shutting down.
+
+05/23/2018 22:14:01 Bin Average is starting up, version 7.26.1.8
+05/23/2018 22:14:35 Bin Average is shutting down.
+
+05/23/2018 22:14:38 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:15:08 ASCII Out is shutting down.
+
+05/23/2018 22:15:47 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:16:12 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-131STR\SO262-131STR_CTD\SO262-131STR_CTD_int_memory.hex'.
+05/23/2018 22:16:35 DatCnvImp is exiting.
+05/23/2018 22:16:42 Data Conversion is shutting down.
+
+05/23/2018 22:16:45 Bin Average is starting up, version 7.26.1.8
+05/23/2018 22:17:10 Bin Average is shutting down.
+
+05/23/2018 22:17:13 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:17:41 ASCII Out is shutting down.
+
+05/23/2018 22:17:44 Data Conversion is starting up, version 7.26.1.8
+05/23/2018 22:18:04 DatCnvImp is processing file 'Z:\SO262\_stations\SO262-168STR\SO262-168STR_CTD\SO262-168STR_CTD_online.hex'.
+05/23/2018 22:18:16 DatCnvImp is exiting.
+05/23/2018 22:18:21 Data Conversion is shutting down.
+
+05/23/2018 22:18:23 Bin Average is starting up, version 7.26.1.8
+05/23/2018 22:18:55 Bin Average is shutting down.
+
+05/23/2018 22:18:58 ASCII Out is starting up, version 7.26.1.8
+05/23/2018 22:19:46 ASCII Out is shutting down.
+
+05/26/2018 00:37:20 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:41:35 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-058CTD_raw\SO262-058.hex'.
+05/26/2018 00:41:40 DatCnvImp is exiting.
+05/26/2018 00:42:22 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-058CTD_raw\SO262-058.hex'.
+05/26/2018 00:42:25 DatCnvImp is exiting.
+05/26/2018 00:42:58 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-058CTD_raw\SO262-058.hex'.
+05/26/2018 00:43:02 DatCnvImp is exiting.
+05/26/2018 00:43:12 Data Conversion is shutting down.
+
+05/26/2018 00:43:15 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:44:35 Bin Average is shutting down.
+
+05/26/2018 00:45:08 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:45:52 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-061CTD_raw\SO262-061.hex'.
+05/26/2018 00:46:16 DatCnvImp is exiting.
+05/26/2018 00:46:53 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-061CTD_raw\SO262-061.hex'.
+05/26/2018 00:47:01 DatCnvImp is exiting.
+05/26/2018 00:47:12 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-061CTD_raw\SO262-061.hex'.
+05/26/2018 00:47:25 DatCnvImp is exiting.
+05/26/2018 00:47:27 Data Conversion is shutting down.
+
+05/26/2018 00:47:30 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:48:33 Bin Average is shutting down.
+
+05/26/2018 00:48:52 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:49:37 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-070CTD_raw\SO262-070.hex'.
+05/26/2018 00:49:47 DatCnvImp is exiting.
+05/26/2018 00:49:58 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-070CTD_raw\SO262-070.hex'.
+05/26/2018 00:50:04 DatCnvImp is exiting.
+05/26/2018 00:50:08 Data Conversion is shutting down.
+
+05/26/2018 00:50:16 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:51:06 Bin Average is shutting down.
+
+05/26/2018 00:51:19 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:52:14 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-105CTD_raw\SO262-105.hex'.
+05/26/2018 00:52:16 DatCnvImp is exiting.
+05/26/2018 00:52:35 DatCnvImp is processing file 'Z:\SO262\CTD_data\SO262-105CTD_raw\SO262-105.hex'.
+05/26/2018 00:52:38 DatCnvImp is exiting.
+05/26/2018 00:52:40 Data Conversion is shutting down.
+
+05/26/2018 00:52:44 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:54:33 Bin Average is shutting down.
+
+05/26/2018 00:54:35 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:55:36 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-121CTD_raw\SO262_121CTD.hex'.
+05/26/2018 00:55:49 DatCnvImp is exiting.
+05/26/2018 00:56:01 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-121CTD_raw\SO262_121CTD.hex'.
+05/26/2018 00:56:09 DatCnvImp is exiting.
+05/26/2018 00:56:11 Data Conversion is shutting down.
+
+05/26/2018 00:56:13 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:57:09 Bin Average is shutting down.
+
+05/26/2018 00:57:26 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 00:57:50 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-153CTD_raw\SO262_153CTD.hex'.
+05/26/2018 00:57:52 DatCnvImp is exiting.
+05/26/2018 00:58:07 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-153CTD_raw\SO262_153CTD.hex'.
+05/26/2018 00:58:10 DatCnvImp is exiting.
+05/26/2018 00:58:13 Data Conversion is shutting down.
+
+05/26/2018 00:58:15 Bin Average is starting up, version 7.26.1.8
+05/26/2018 00:58:54 Bin Average is shutting down.
+
+05/26/2018 01:00:48 Data Conversion is starting up, version 7.26.1.8
+05/26/2018 01:01:19 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+05/26/2018 01:01:32 DatCnvImp is exiting.
+05/26/2018 01:02:02 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+05/26/2018 01:02:16 DatCnvImp is exiting.
+05/26/2018 01:02:26 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+05/26/2018 01:02:34 DatCnvImp is exiting.
+05/26/2018 01:02:36 Data Conversion is shutting down.
+
+05/26/2018 01:02:39 Bin Average is starting up, version 7.26.1.8
+05/26/2018 01:03:29 Bin Average is shutting down.
+
+05/26/2018 01:04:28 Bin Average is starting up, version 7.26.1.8
+05/26/2018 01:05:36 Bin Average is shutting down.
+
+06/03/2018 20:51:06 Data Conversion is starting up, version 7.26.1.8
+06/03/2018 20:52:15 DatCnvImp is processing file 'D:\CTDData\SO263\SO263_CTD001_V01\SO263-CTD01.hex'.
+06/03/2018 20:52:33 DatCnvImp is exiting.
+06/03/2018 20:52:39 Data Conversion is shutting down.
+
+06/30/2018 03:47:15 Data Conversion is starting up, version 7.26.1.8
+06/30/2018 03:49:04 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+06/30/2018 03:49:14 DatCnvImp is exiting.
+06/30/2018 03:49:30 Data Conversion is shutting down.
+
+06/30/2018 03:52:49 Data Conversion is starting up, version 7.26.1.8
+06/30/2018 04:06:07 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+06/30/2018 04:06:12 DatCnvImp is exiting.
+06/30/2018 04:07:08 DatCnvImp is processing file 'D:\CTDData\SO262\SO262-164CTD_raw\SO262_164CTD.hex'.
+06/30/2018 04:07:16 DatCnvImp is exiting.
+06/30/2018 04:08:37 Data Conversion is shutting down.
+
+06/30/2018 04:08:41 Bin Average is starting up, version 7.26.1.8
+06/30/2018 04:09:16 Bin Average is shutting down.
+
+06/30/2018 04:16:40 Data Conversion is starting up, version 7.26.1.8
+06/30/2018 04:16:52 Data Conversion is shutting down.
+
+06/30/2018 04:18:55 Data Conversion is starting up, version 7.26.1.8
+06/30/2018 04:19:07 Data Conversion is shutting down.
+
+07/02/2018 21:35:34 Data Conversion is starting up, version 7.26.1.8
+07/02/2018 21:48:32 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-1-2.hex'.
+07/02/2018 21:48:38 DatCnvImp is exiting.
+07/02/2018 21:48:42 Data Conversion is shutting down.
+
+07/02/2018 21:49:27 Data Conversion is starting up, version 7.26.1.8
+07/02/2018 21:49:51 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-1-2.hex'.
+07/02/2018 21:49:54 DatCnvImp is exiting.
+07/02/2018 21:50:50 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-1-2.hex'.
+07/02/2018 21:50:53 DatCnvImp is exiting.
+07/02/2018 21:50:55 Data Conversion is shutting down.
+
+07/02/2018 21:51:16 Data Conversion is starting up, version 7.26.1.8
+07/02/2018 21:51:39 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-1-2.hex'.
+07/02/2018 21:51:42 DatCnvImp is exiting.
+07/02/2018 21:51:46 Data Conversion is shutting down.
+
+07/03/2018 00:31:21 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 00:32:26 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-1-2.hex'.
+07/03/2018 00:32:29 DatCnvImp is exiting.
+07/03/2018 00:37:44 Data Conversion is shutting down.
+
+07/03/2018 02:28:27 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 02:32:16 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 02:32:22 DatCnvImp is exiting.
+07/03/2018 02:33:07 Data Conversion is shutting down.
+
+07/03/2018 02:33:20 Bottle Summary is starting up, version 7.26.1.8
+07/03/2018 02:34:14 Bottle Summary is shutting down.
+
+07/03/2018 02:34:29 Filter is starting up, version 7.26.1.8
+07/03/2018 02:35:37 Filter is shutting down.
+
+07/03/2018 02:36:31 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 02:37:12 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 02:37:16 DatCnvImp is exiting.
+07/03/2018 02:42:25 Data Conversion is shutting down.
+
+07/03/2018 02:42:32 Filter is starting up, version 7.26.1.8
+07/03/2018 02:43:00 Filter is shutting down.
+
+07/03/2018 02:43:04 Align CTD is starting up, version 7.26.1.8
+07/03/2018 02:44:32 Align CTD is shutting down.
+
+07/03/2018 02:44:38 Loop Edit is starting up, version 7.26.1.8
+07/03/2018 02:45:17 Loop Edit is shutting down.
+
+07/03/2018 02:45:21 Filter is starting up, version 7.26.1.8
+07/03/2018 02:46:21 Filter is shutting down.
+
+07/03/2018 02:46:24 Derive is starting up, version 7.26.1.8
+07/03/2018 02:47:20 Derive is shutting down.
+
+07/03/2018 02:47:37 Filter is starting up, version 7.26.1.8
+07/03/2018 02:47:59 Filter is shutting down.
+
+07/03/2018 02:48:04 Derive is starting up, version 7.26.1.8
+07/03/2018 02:49:00 Derive is shutting down.
+
+07/03/2018 02:49:05 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 02:51:59 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 02:52:05 DatCnvImp is exiting.
+07/03/2018 02:52:08 Data Conversion is shutting down.
+
+07/03/2018 02:52:18 Filter is starting up, version 7.26.1.8
+07/03/2018 02:53:28 Filter is shutting down.
+
+07/03/2018 03:17:06 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 03:17:13 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 03:17:24 Data Conversion is shutting down.
+
+07/03/2018 03:17:27 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 03:17:30 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 03:17:31 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2_der.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+07/03/2018 03:17:31 DatCnvImp is exiting.
+07/03/2018 03:17:42 Data Conversion is shutting down.
+
+07/03/2018 03:17:49 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 03:17:55 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 03:17:57 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2_der.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+07/03/2018 03:17:57 DatCnvImp is exiting.
+07/03/2018 03:18:02 Data Conversion is shutting down.
+
+07/03/2018 03:18:10 Data Conversion is starting up, version 7.26.1.8
+07/03/2018 03:18:12 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+07/03/2018 03:18:16 DatCnvImp is exiting.
+07/03/2018 03:18:18 Data Conversion is shutting down.
+
+07/03/2018 03:18:23 Filter is starting up, version 7.26.1.8
+07/03/2018 03:18:35 Filter is shutting down.
+
+07/03/2018 03:18:38 Align CTD is starting up, version 7.26.1.8
+07/03/2018 03:18:44 Align CTD is shutting down.
+
+07/03/2018 03:18:48 Loop Edit is starting up, version 7.26.1.8
+07/03/2018 03:19:01 Loop Edit is shutting down.
+
+07/03/2018 03:19:03 Filter is starting up, version 7.26.1.8
+07/03/2018 03:20:34 Filter is shutting down.
+
+07/03/2018 03:20:40 Derive is starting up, version 7.26.1.8
+07/03/2018 03:21:49 Derive is shutting down.
+
+07/03/2018 03:22:04 Bin Average is starting up, version 7.26.1.8
+07/03/2018 03:23:06 Bin Average is shutting down.
+
+07/04/2018 22:06:17 Data Conversion is starting up, version 7.26.1.8
+07/04/2018 22:09:09 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:09:12 DatCnvImp is exiting.
+07/04/2018 22:10:10 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:10:13 DatCnvImp is exiting.
+07/04/2018 22:12:08 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:12:11 DatCnvImp is exiting.
+07/04/2018 22:13:48 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:13:51 DatCnvImp is exiting.
+07/04/2018 22:14:01 Data Conversion is shutting down.
+
+07/04/2018 22:16:20 Data Conversion is starting up, version 7.26.1.8
+07/04/2018 22:17:21 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:17:24 DatCnvImp is exiting.
+07/04/2018 22:18:45 DatCnvImp is processing file 'D:\CTDData\SO264\SO264-2-2.hex'.
+07/04/2018 22:18:48 DatCnvImp is exiting.
+07/04/2018 22:18:50 Data Conversion is shutting down.
+
+07/05/2018 02:18:10 Filter is starting up, version 7.26.1.8
+07/05/2018 02:19:11 Filter is shutting down.
+
+07/05/2018 02:19:17 Align CTD is starting up, version 7.26.1.8
+07/05/2018 02:19:48 Align CTD is shutting down.
+
+07/05/2018 02:19:55 Loop Edit is starting up, version 7.26.1.8
+07/05/2018 02:20:12 Loop Edit is shutting down.
+
+07/05/2018 02:20:16 Filter is starting up, version 7.26.1.8
+07/05/2018 02:20:58 Filter is shutting down.
+
+07/05/2018 02:21:02 Derive is starting up, version 7.26.1.8
+07/05/2018 02:21:37 Derive is shutting down.
+
+07/05/2018 02:21:39 Filter is starting up, version 7.26.1.8
+07/05/2018 02:22:03 Filter is shutting down.
+
+07/05/2018 02:22:08 Derive is starting up, version 7.26.1.8
+07/05/2018 02:22:27 Derive is shutting down.
+
+07/05/2018 02:22:30 Bin Average is starting up, version 7.26.1.8
+07/05/2018 02:22:53 Bin Average is shutting down.
+
+07/05/2018 02:22:57 Bottle Summary is starting up, version 7.26.1.8
+07/05/2018 02:23:13 Bottle Summary is shutting down.
+
+07/05/2018 21:25:57 Data Conversion is starting up, version 7.26.1.8
+07/05/2018 21:26:49 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+07/05/2018 21:26:53 DatCnvImp is exiting.
+07/05/2018 21:27:12 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+07/05/2018 21:27:14 DatCnvImp is exiting.
+07/05/2018 21:28:04 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+07/05/2018 21:28:07 DatCnvImp is exiting.
+07/05/2018 21:28:09 Data Conversion is shutting down.
+
+07/05/2018 21:28:37 Filter is starting up, version 7.26.1.8
+07/05/2018 21:29:30 Filter is shutting down.
+
+07/05/2018 21:29:34 Align CTD is starting up, version 7.26.1.8
+07/05/2018 21:29:59 Align CTD is shutting down.
+
+07/05/2018 21:30:04 Loop Edit is starting up, version 7.26.1.8
+07/05/2018 21:30:34 Loop Edit is shutting down.
+
+07/05/2018 21:30:39 Filter is starting up, version 7.26.1.8
+07/05/2018 21:31:23 Filter is shutting down.
+
+07/05/2018 21:31:28 Derive is starting up, version 7.26.1.8
+07/05/2018 21:32:20 Derive is shutting down.
+
+07/05/2018 21:32:25 Bin Average is starting up, version 7.26.1.8
+07/05/2018 21:32:42 Bin Average is shutting down.
+
+07/06/2018 19:57:40 Data Conversion is starting up, version 7.26.1.8
+07/06/2018 19:58:07 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-4\SO264-4-2.hex'.
+07/06/2018 19:58:12 DatCnvImp is exiting.
+07/06/2018 19:59:04 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-4\SO264-4-2.hex'.
+07/06/2018 19:59:09 DatCnvImp is exiting.
+07/06/2018 19:59:12 Data Conversion is shutting down.
+
+07/06/2018 19:59:20 Filter is starting up, version 7.26.1.8
+07/06/2018 20:00:26 Filter is shutting down.
+
+07/06/2018 20:00:31 Align CTD is starting up, version 7.26.1.8
+07/06/2018 20:00:46 Align CTD is shutting down.
+
+07/06/2018 20:00:51 Loop Edit is starting up, version 7.26.1.8
+07/06/2018 20:01:05 Loop Edit is shutting down.
+
+07/06/2018 20:01:08 Filter is starting up, version 7.26.1.8
+07/06/2018 20:01:57 Filter is shutting down.
+
+07/06/2018 20:02:01 Derive is starting up, version 7.26.1.8
+07/06/2018 20:02:18 Derive is shutting down.
+
+07/06/2018 20:02:20 Bin Average is starting up, version 7.26.1.8
+07/06/2018 20:02:36 Bin Average is shutting down.
+
+07/07/2018 06:25:45 Data Conversion is starting up, version 7.26.1.8
+07/07/2018 06:26:13 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-5\SO264-5-2.hex'.
+07/07/2018 06:26:15 DatCnvImp is exiting.
+07/07/2018 06:26:21 Data Conversion is shutting down.
+
+07/07/2018 06:26:45 Data Conversion is starting up, version 7.26.1.8
+07/07/2018 06:27:08 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-5\SO264-5-2.hex'.
+07/07/2018 06:27:10 DatCnvImp is exiting.
+07/07/2018 06:27:12 Data Conversion is shutting down.
+
+07/07/2018 06:27:17 Filter is starting up, version 7.26.1.8
+07/07/2018 06:28:05 Filter is shutting down.
+
+07/07/2018 06:28:11 Align CTD is starting up, version 7.26.1.8
+07/07/2018 06:28:25 Align CTD is shutting down.
+
+07/07/2018 06:28:29 Loop Edit is starting up, version 7.26.1.8
+07/07/2018 06:28:45 Loop Edit is shutting down.
+
+07/07/2018 06:28:50 Filter is starting up, version 7.26.1.8
+07/07/2018 06:29:10 Filter is shutting down.
+
+07/07/2018 06:29:17 Derive is starting up, version 7.26.1.8
+07/07/2018 06:29:33 Derive is shutting down.
+
+07/07/2018 06:29:38 Bin Average is starting up, version 7.26.1.8
+07/07/2018 06:29:59 Bin Average is shutting down.
+
+07/09/2018 04:20:27 Mark Scan is starting up, version 7.26.1.8
+07/09/2018 04:21:14 Mark Scan is shutting down.
+
+07/09/2018 04:21:16 Data Conversion is starting up, version 7.26.1.8
+07/09/2018 04:21:29 Data Conversion is shutting down.
+
+07/09/2018 20:19:23 Data Conversion is starting up, version 7.26.1.8
+07/09/2018 20:21:15 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-6\SO264-6-2.hex'.
+07/09/2018 20:21:18 DatCnvImp is exiting.
+07/09/2018 20:21:50 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-6\SO264-6-2.hex'.
+07/09/2018 20:22:28 DatCnvImp is exiting.
+07/09/2018 20:22:32 Data Conversion is shutting down.
+
+07/09/2018 20:22:35 Filter is starting up, version 7.26.1.8
+07/09/2018 20:23:24 Filter is shutting down.
+
+07/09/2018 20:23:30 Align CTD is starting up, version 7.26.1.8
+07/09/2018 20:23:47 Align CTD is shutting down.
+
+07/09/2018 20:23:51 Loop Edit is starting up, version 7.26.1.8
+07/09/2018 20:24:04 Loop Edit is shutting down.
+
+07/09/2018 20:24:09 Filter is starting up, version 7.26.1.8
+07/09/2018 20:24:26 Filter is shutting down.
+
+07/09/2018 20:24:30 Derive is starting up, version 7.26.1.8
+07/09/2018 20:24:44 Derive is shutting down.
+
+07/09/2018 20:24:48 Bin Average is starting up, version 7.26.1.8
+07/09/2018 20:25:05 Bin Average is shutting down.
+
+07/11/2018 06:25:56 Data Conversion is starting up, version 7.26.1.8
+07/11/2018 06:26:21 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-07\SO264-7-2.hex'.
+07/11/2018 06:26:24 DatCnvImp is exiting.
+07/11/2018 06:26:58 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-07\SO264-7-2.hex'.
+07/11/2018 06:27:01 DatCnvImp is exiting.
+07/11/2018 06:27:08 Data Conversion is shutting down.
+
+07/11/2018 06:27:12 Filter is starting up, version 7.26.1.8
+07/11/2018 06:28:05 Filter is shutting down.
+
+07/11/2018 06:28:10 Align CTD is starting up, version 7.26.1.8
+07/11/2018 06:28:25 Align CTD is shutting down.
+
+07/11/2018 06:28:31 Loop Edit is starting up, version 7.26.1.8
+07/11/2018 06:28:47 Loop Edit is shutting down.
+
+07/11/2018 06:28:51 Filter is starting up, version 7.26.1.8
+07/11/2018 06:29:15 Filter is shutting down.
+
+07/11/2018 06:29:19 Derive is starting up, version 7.26.1.8
+07/11/2018 06:29:33 Derive is shutting down.
+
+07/11/2018 06:29:35 Bin Average is starting up, version 7.26.1.8
+07/11/2018 06:29:47 Bin Average is shutting down.
+
+07/13/2018 06:36:43 Data Conversion is starting up, version 7.26.1.8
+07/13/2018 06:37:01 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-8\SO264-8-4.hex'.
+07/13/2018 06:37:05 DatCnvImp is exiting.
+07/13/2018 06:37:39 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-8\SO264-8-4.hex'.
+07/13/2018 06:37:43 DatCnvImp is exiting.
+07/13/2018 06:37:49 Data Conversion is shutting down.
+
+07/13/2018 06:37:55 Filter is starting up, version 7.26.1.8
+07/13/2018 06:38:39 Filter is shutting down.
+
+07/13/2018 06:38:45 Align CTD is starting up, version 7.26.1.8
+07/13/2018 06:38:58 Align CTD is shutting down.
+
+07/13/2018 06:39:02 Loop Edit is starting up, version 7.26.1.8
+07/13/2018 06:39:15 Loop Edit is shutting down.
+
+07/13/2018 06:39:19 Filter is starting up, version 7.26.1.8
+07/13/2018 06:39:39 Filter is shutting down.
+
+07/13/2018 06:39:42 Derive is starting up, version 7.26.1.8
+07/13/2018 06:39:55 Derive is shutting down.
+
+07/13/2018 06:39:57 Bin Average is starting up, version 7.26.1.8
+07/13/2018 06:40:12 Bin Average is shutting down.
+
+07/14/2018 22:27:27 Data Conversion is starting up, version 7.26.1.8
+07/14/2018 22:27:45 Data Conversion is shutting down.
+
+07/14/2018 22:27:49 Data Conversion is starting up, version 7.26.1.8
+07/14/2018 22:28:08 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-11\SO264-11-2.hex'.
+07/14/2018 22:28:13 DatCnvImp is exiting.
+07/14/2018 22:28:42 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-11\SO264-11-2.hex'.
+07/14/2018 22:28:46 DatCnvImp is exiting.
+07/14/2018 22:28:49 Data Conversion is shutting down.
+
+07/14/2018 22:28:52 Filter is starting up, version 7.26.1.8
+07/14/2018 22:29:33 Filter is shutting down.
+
+07/14/2018 22:29:35 Align CTD is starting up, version 7.26.1.8
+07/14/2018 22:29:51 Align CTD is shutting down.
+
+07/14/2018 22:29:55 Loop Edit is starting up, version 7.26.1.8
+07/14/2018 22:30:11 Loop Edit is shutting down.
+
+07/14/2018 22:30:13 Filter is starting up, version 7.26.1.8
+07/14/2018 22:30:28 Filter is shutting down.
+
+07/14/2018 22:30:32 Derive is starting up, version 7.26.1.8
+07/14/2018 22:30:46 Derive is shutting down.
+
+07/14/2018 22:30:51 Bin Average is starting up, version 7.26.1.8
+07/14/2018 22:31:06 Bin Average is shutting down.
+
+07/16/2018 22:24:58 Data Conversion is starting up, version 7.26.1.8
+07/16/2018 22:25:21 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-13\SO264-13-4.hex'.
+07/16/2018 22:25:26 DatCnvImp is exiting.
+07/16/2018 22:26:08 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-13\SO264-13-4.hex'.
+07/16/2018 22:26:12 DatCnvImp is exiting.
+07/16/2018 22:26:15 Data Conversion is shutting down.
+
+07/16/2018 22:26:17 Filter is starting up, version 7.26.1.8
+07/16/2018 22:27:15 Filter is shutting down.
+
+07/16/2018 22:27:17 Align CTD is starting up, version 7.26.1.8
+07/16/2018 22:27:30 Align CTD is shutting down.
+
+07/16/2018 22:27:33 Loop Edit is starting up, version 7.26.1.8
+07/16/2018 22:27:50 Loop Edit is shutting down.
+
+07/16/2018 22:27:52 Filter is starting up, version 7.26.1.8
+07/16/2018 22:28:07 Filter is shutting down.
+
+07/16/2018 22:28:10 Derive is starting up, version 7.26.1.8
+07/16/2018 22:28:23 Derive is shutting down.
+
+07/16/2018 22:28:27 Bin Average is starting up, version 7.26.1.8
+07/16/2018 22:28:39 Bin Average is shutting down.
+
+07/22/2018 00:16:07 Data Conversion is starting up, version 7.26.1.8
+07/22/2018 00:16:22 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-19\SO264-19-4.hex'.
+07/22/2018 00:16:28 DatCnvImp is exiting.
+07/22/2018 00:17:15 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-19\SO264-19-4.hex'.
+07/22/2018 00:17:41 DatCnvImp is exiting.
+07/22/2018 00:17:43 Data Conversion is shutting down.
+
+07/22/2018 00:17:48 Filter is starting up, version 7.26.1.8
+07/22/2018 00:18:30 Filter is shutting down.
+
+07/22/2018 00:18:35 Filter is starting up, version 7.26.1.8
+07/22/2018 00:18:46 Filter is shutting down.
+
+07/22/2018 00:18:49 Align CTD is starting up, version 7.26.1.8
+07/22/2018 00:19:03 Align CTD is shutting down.
+
+07/22/2018 00:19:06 Loop Edit is starting up, version 7.26.1.8
+07/22/2018 00:19:22 Loop Edit is shutting down.
+
+07/22/2018 00:19:24 Filter is starting up, version 7.26.1.8
+07/22/2018 00:20:11 Filter is shutting down.
+
+07/22/2018 00:20:19 Derive is starting up, version 7.26.1.8
+07/22/2018 00:20:41 Derive is shutting down.
+
+07/22/2018 00:20:45 Bin Average is starting up, version 7.26.1.8
+07/22/2018 00:21:01 Bin Average is shutting down.
+
+07/22/2018 22:43:22 Data Conversion is starting up, version 7.26.1.8
+07/22/2018 22:43:40 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:43:45 DatCnvImp is exiting.
+07/22/2018 22:43:47 Data Conversion is shutting down.
+
+07/22/2018 22:44:08 Data Conversion is starting up, version 7.26.1.8
+07/22/2018 22:44:16 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:44:30 Data Conversion is shutting down.
+
+07/22/2018 22:44:33 Data Conversion is starting up, version 7.26.1.8
+07/22/2018 22:44:45 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:44:47 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4_der.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+07/22/2018 22:44:47 DatCnvImp is exiting.
+07/22/2018 22:44:58 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:44:59 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4_der.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+07/22/2018 22:44:59 DatCnvImp is exiting.
+07/22/2018 22:45:05 Data Conversion is shutting down.
+
+07/22/2018 22:45:10 Data Conversion is starting up, version 7.26.1.8
+07/22/2018 22:45:21 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:45:23 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4_der.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+07/22/2018 22:45:23 DatCnvImp is exiting.
+07/22/2018 22:45:38 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-24\SO264-24-4.hex'.
+07/22/2018 22:45:42 DatCnvImp is exiting.
+07/22/2018 22:45:47 Data Conversion is shutting down.
+
+07/22/2018 22:45:49 Filter is starting up, version 7.26.1.8
+07/22/2018 22:46:35 Filter is shutting down.
+
+07/22/2018 22:46:38 Align CTD is starting up, version 7.26.1.8
+07/22/2018 22:46:54 Align CTD is shutting down.
+
+07/22/2018 22:46:57 Loop Edit is starting up, version 7.26.1.8
+07/22/2018 22:47:42 Loop Edit is shutting down.
+
+07/22/2018 22:47:44 Filter is starting up, version 7.26.1.8
+07/22/2018 22:48:16 Filter is shutting down.
+
+07/22/2018 22:48:20 Derive is starting up, version 7.26.1.8
+07/22/2018 22:48:35 Derive is shutting down.
+
+07/22/2018 22:48:39 Bin Average is starting up, version 7.26.1.8
+07/22/2018 22:48:53 Bin Average is shutting down.
+
+07/29/2018 03:17:41 Data Conversion is starting up, version 7.26.1.8
+07/29/2018 03:18:23 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-35\SO264-35-2.hex'.
+07/29/2018 03:18:26 DatCnvImp is exiting.
+07/29/2018 03:18:52 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-35\SO264-35-2.hex'.
+07/29/2018 03:18:55 DatCnvImp is exiting.
+07/29/2018 03:18:59 Data Conversion is shutting down.
+
+07/29/2018 03:19:01 Filter is starting up, version 7.26.1.8
+07/29/2018 03:20:02 Filter is shutting down.
+
+07/29/2018 03:20:07 Align CTD is starting up, version 7.26.1.8
+07/29/2018 03:20:49 Align CTD is shutting down.
+
+07/29/2018 03:20:53 Loop Edit is starting up, version 7.26.1.8
+07/29/2018 03:21:17 Loop Edit is shutting down.
+
+07/29/2018 03:21:21 Filter is starting up, version 7.26.1.8
+07/29/2018 03:21:59 Filter is shutting down.
+
+07/29/2018 03:22:02 Derive is starting up, version 7.26.1.8
+07/29/2018 03:22:27 Derive is shutting down.
+
+07/29/2018 03:22:29 Bin Average is starting up, version 7.26.1.8
+07/29/2018 03:22:49 Bin Average is shutting down.
+
+07/30/2018 21:44:34 Data Conversion is starting up, version 7.26.1.8
+07/30/2018 21:45:19 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-40\SO264-40-2.hex'.
+07/30/2018 21:45:25 DatCnvImp is exiting.
+07/30/2018 21:45:57 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-40\SO264-40-2.hex'.
+07/30/2018 21:46:02 DatCnvImp is exiting.
+07/30/2018 21:46:10 Data Conversion is shutting down.
+
+07/30/2018 21:46:13 Filter is starting up, version 7.26.1.8
+07/30/2018 21:46:38 Filter is shutting down.
+
+07/30/2018 21:46:41 Align CTD is starting up, version 7.26.1.8
+07/30/2018 21:46:55 Align CTD is shutting down.
+
+07/30/2018 21:46:58 Loop Edit is starting up, version 7.26.1.8
+07/30/2018 21:47:13 Loop Edit is shutting down.
+
+07/30/2018 21:47:18 Filter is starting up, version 7.26.1.8
+07/30/2018 21:47:54 Filter is shutting down.
+
+07/30/2018 21:48:05 Filter is starting up, version 7.26.1.8
+07/30/2018 21:48:44 Filter is shutting down.
+
+07/30/2018 21:48:53 Derive is starting up, version 7.26.1.8
+07/30/2018 21:49:09 Derive is shutting down.
+
+07/30/2018 21:49:12 Bin Average is starting up, version 7.26.1.8
+07/30/2018 21:49:57 Bin Average is shutting down.
+
+08/01/2018 23:05:25 Bottle Summary is starting up, version 7.26.1.8
+08/01/2018 23:06:08 Bottle Summary is shutting down.
+
+08/01/2018 23:10:42 Bottle Summary is starting up, version 7.26.1.8
+08/01/2018 23:11:25 Bottle Summary is shutting down.
+
+08/01/2018 23:14:17 Data Conversion is starting up, version 7.26.1.8
+08/01/2018 23:16:09 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+08/01/2018 23:16:15 DatCnvImp is exiting.
+08/01/2018 23:16:21 Data Conversion is shutting down.
+
+08/01/2018 23:16:24 Bottle Summary is starting up, version 7.26.1.8
+08/01/2018 23:17:42 Bottle Summary is shutting down.
+
+08/01/2018 23:17:45 Data Conversion is starting up, version 7.26.1.8
+08/01/2018 23:18:17 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.hex'.
+08/01/2018 23:18:22 DatCnvImp is exiting.
+08/01/2018 23:18:26 Data Conversion is shutting down.
+
+08/01/2018 23:18:31 Bottle Summary is starting up, version 7.26.1.8
+08/01/2018 23:22:04 Bottle Summary is shutting down.
+
+08/01/2018 23:24:11 Bottle Summary is starting up, version 7.26.1.8
+08/01/2018 23:24:54 Bottle Summary is shutting down.
+
+08/01/2018 23:31:47 ASCII Out is starting up, version 7.26.1.8
+08/01/2018 23:32:43 ASCII Out is shutting down.
+
+08/02/2018 03:02:37 Data Conversion is starting up, version 7.26.1.8
+08/02/2018 03:03:09 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-46-2\SO264-46-2.hex'.
+08/02/2018 03:03:14 DatCnvImp is exiting.
+08/02/2018 03:04:04 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-46-2\SO264-46-2.hex'.
+08/02/2018 03:04:13 DatCnvImp is exiting.
+08/02/2018 03:04:21 Data Conversion is shutting down.
+
+08/02/2018 03:04:24 Filter is starting up, version 7.26.1.8
+08/02/2018 03:05:14 Filter is shutting down.
+
+08/02/2018 03:05:16 Align CTD is starting up, version 7.26.1.8
+08/02/2018 03:05:30 Align CTD is shutting down.
+
+08/02/2018 03:05:33 Loop Edit is starting up, version 7.26.1.8
+08/02/2018 03:05:49 Loop Edit is shutting down.
+
+08/02/2018 03:05:51 Filter is starting up, version 7.26.1.8
+08/02/2018 03:06:09 Filter is shutting down.
+
+08/02/2018 03:06:11 Derive is starting up, version 7.26.1.8
+08/02/2018 03:06:26 Derive is shutting down.
+
+08/02/2018 03:06:29 Bin Average is starting up, version 7.26.1.8
+08/02/2018 03:06:46 Bin Average is shutting down.
+
+08/02/2018 03:57:03 Data Conversion is starting up, version 7.26.1.8
+08/02/2018 03:58:08 Data Conversion is shutting down.
+
+08/02/2018 03:58:14 Bottle Summary is starting up, version 7.26.1.8
+08/02/2018 04:10:43 Bottle Summary is shutting down.
+
+08/02/2018 04:10:46 Data Conversion is starting up, version 7.26.1.8
+08/02/2018 04:11:39 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-35\SO264-35-2.hex'.
+08/02/2018 04:11:46 DatCnvImp is exiting.
+08/02/2018 04:12:00 Data Conversion is shutting down.
+
+08/02/2018 04:12:05 Bottle Summary is starting up, version 7.26.1.8
+08/02/2018 04:12:57 Bottle Summary is shutting down.
+
+08/02/2018 04:14:03 Data Conversion is starting up, version 7.26.1.8
+08/02/2018 04:14:28 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-35-2b\SO264-35-2b.hex'.
+08/02/2018 04:14:31 DatCnvImp is exiting.
+08/02/2018 04:14:34 Data Conversion is shutting down.
+
+08/02/2018 04:14:36 Bottle Summary is starting up, version 7.26.1.8
+08/02/2018 04:22:58 Bottle Summary is shutting down.
+
+08/02/2018 22:15:14 Data Conversion is starting up, version 7.26.1.8
+08/02/2018 22:16:50 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-2\SO264-2-2.hex'.
+08/02/2018 22:16:55 DatCnvImp is exiting.
+08/02/2018 22:17:00 Data Conversion is shutting down.
+
+08/02/2018 22:17:03 Bottle Summary is starting up, version 7.26.1.8
+08/02/2018 22:32:50 Bottle Summary is shutting down.
+
+08/08/2018 21:36:58 Data Conversion is starting up, version 7.26.1.8
+08/08/2018 21:37:32 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-60-2\SO264-60-2.hex'.
+08/08/2018 21:37:40 DatCnvImp is exiting.
+08/08/2018 21:37:44 Data Conversion is shutting down.
+
+08/08/2018 21:37:46 Bottle Summary is starting up, version 7.26.1.8
+08/08/2018 21:38:48 Bottle Summary is shutting down.
+
+08/08/2018 23:31:26 Data Conversion is starting up, version 7.26.1.8
+08/08/2018 23:32:01 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-60-2\SO264-60-2.hex'.
+08/08/2018 23:32:06 DatCnvImp is exiting.
+08/08/2018 23:32:33 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-60-2\SO264-60-2.hex'.
+08/08/2018 23:32:37 DatCnvImp is exiting.
+08/08/2018 23:32:41 Data Conversion is shutting down.
+
+08/08/2018 23:32:44 Filter is starting up, version 7.26.1.8
+08/08/2018 23:33:38 Filter is shutting down.
+
+08/08/2018 23:33:40 Align CTD is starting up, version 7.26.1.8
+08/08/2018 23:33:58 Align CTD is shutting down.
+
+08/08/2018 23:34:01 Loop Edit is starting up, version 7.26.1.8
+08/08/2018 23:34:21 Loop Edit is shutting down.
+
+08/08/2018 23:34:29 Filter is starting up, version 7.26.1.8
+08/08/2018 23:34:52 Filter is shutting down.
+
+08/08/2018 23:34:55 Derive is starting up, version 7.26.1.8
+08/08/2018 23:35:16 Derive is shutting down.
+
+08/08/2018 23:35:19 Bin Average is starting up, version 7.26.1.8
+08/08/2018 23:35:46 Bin Average is shutting down.
+
+08/10/2018 23:27:35 Data Conversion is starting up, version 7.26.1.8
+08/10/2018 23:28:08 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-2\SO264-2-2.hex'.
+08/10/2018 23:28:12 DatCnvImp is exiting.
+08/10/2018 23:28:22 Data Conversion is shutting down.
+
+08/10/2018 23:28:26 Bottle Summary is starting up, version 7.26.1.8
+08/10/2018 23:29:36 Bottle Summary is shutting down.
+
+08/13/2018 20:42:35 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 20:42:57 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-67\SO264-67-2.hex'.
+08/13/2018 20:43:02 DatCnvImp is exiting.
+08/13/2018 20:43:37 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-67\SO264-67-2.hex'.
+08/13/2018 20:43:42 DatCnvImp is exiting.
+08/13/2018 20:43:55 Data Conversion is shutting down.
+
+08/13/2018 20:43:58 Filter is starting up, version 7.26.1.8
+08/13/2018 20:44:46 Filter is shutting down.
+
+08/13/2018 20:48:39 Align CTD is starting up, version 7.26.1.8
+08/13/2018 20:48:55 Align CTD is shutting down.
+
+08/13/2018 20:48:58 Loop Edit is starting up, version 7.26.1.8
+08/13/2018 20:49:12 Loop Edit is shutting down.
+
+08/13/2018 20:49:16 Filter is starting up, version 7.26.1.8
+08/13/2018 20:49:41 Filter is shutting down.
+
+08/13/2018 20:49:44 Derive is starting up, version 7.26.1.8
+08/13/2018 20:50:04 Derive is shutting down.
+
+08/13/2018 20:50:06 Bin Average is starting up, version 7.26.1.8
+08/13/2018 20:52:54 Bin Average is shutting down.
+
+08/13/2018 21:35:21 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 21:35:33 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+08/13/2018 21:35:44 Data Conversion is shutting down.
+
+08/13/2018 21:35:47 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 21:35:52 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-2\SO264-2-2.hex'.
+08/13/2018 21:36:04 DatCnvImp is exiting.
+08/13/2018 21:36:07 Data Conversion is shutting down.
+
+08/13/2018 21:36:50 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 21:37:06 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+08/13/2018 21:37:07 DatCnv failed to open 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2_dervbb.cnv' for writing. Error #32 - The process cannot access the file because it is being used by another process.
+
+08/13/2018 21:37:07 DatCnvImp is exiting.
+08/13/2018 21:37:24 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-3\SO264-3-2.hex'.
+08/13/2018 21:37:28 DatCnvImp is exiting.
+08/13/2018 21:37:43 Data Conversion is shutting down.
+
+08/13/2018 21:37:46 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 21:43:21 Bottle Summary is shutting down.
+
+08/13/2018 21:44:37 Bin Average is starting up, version 7.26.1.8
+08/13/2018 21:45:04 Bin Average is shutting down.
+
+08/13/2018 21:55:25 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 21:55:38 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-4\SO264-4-2.hex'.
+08/13/2018 21:55:47 DatCnvImp is exiting.
+08/13/2018 21:56:01 Data Conversion is shutting down.
+
+08/13/2018 21:56:06 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 22:03:11 Bottle Summary is shutting down.
+
+08/13/2018 22:08:21 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 22:08:30 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-5\SO264-5-2.hex'.
+08/13/2018 22:08:34 DatCnvImp is exiting.
+08/13/2018 22:08:36 Data Conversion is shutting down.
+
+08/13/2018 22:08:39 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 22:12:30 Bottle Summary is shutting down.
+
+08/13/2018 22:27:56 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 22:28:21 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-6\SO264-6-2.hex'.
+08/13/2018 22:28:27 DatCnvImp is exiting.
+08/13/2018 22:28:32 Data Conversion is shutting down.
+
+08/13/2018 22:28:38 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 22:32:14 Bottle Summary is shutting down.
+
+08/13/2018 22:45:10 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 22:45:29 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-07\SO264-7-2.hex'.
+08/13/2018 22:45:33 DatCnvImp is exiting.
+08/13/2018 22:45:45 Data Conversion is shutting down.
+
+08/13/2018 22:45:48 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 22:48:45 Bottle Summary is shutting down.
+
+08/13/2018 22:59:44 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 22:59:54 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-8\SO264-8-4.hex'.
+08/13/2018 22:59:59 DatCnvImp is exiting.
+08/13/2018 23:00:08 Data Conversion is shutting down.
+
+08/13/2018 23:00:10 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 23:06:08 Bottle Summary is shutting down.
+
+08/13/2018 23:12:08 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 23:12:17 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-11\SO264-11-2.hex'.
+08/13/2018 23:12:26 DatCnvImp is exiting.
+08/13/2018 23:12:38 Data Conversion is shutting down.
+
+08/13/2018 23:12:42 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 23:16:19 Bottle Summary is shutting down.
+
+08/13/2018 23:23:37 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 23:23:47 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-13\SO264-13-4.hex'.
+08/13/2018 23:23:54 DatCnvImp is exiting.
+08/13/2018 23:24:04 Data Conversion is shutting down.
+
+08/13/2018 23:24:06 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 23:27:13 Bottle Summary is shutting down.
+
+08/13/2018 23:51:23 Data Conversion is starting up, version 7.26.1.8
+08/13/2018 23:51:53 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-19\SO264-19-4.hex'.
+08/13/2018 23:52:02 DatCnvImp is exiting.
+08/13/2018 23:52:11 Data Conversion is shutting down.
+
+08/13/2018 23:52:14 Bottle Summary is starting up, version 7.26.1.8
+08/13/2018 23:55:20 Bottle Summary is shutting down.
+
+08/14/2018 00:02:53 Data Conversion is starting up, version 7.26.1.8
+08/14/2018 00:03:11 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-24\SO264-24-4.hex'.
+08/14/2018 00:03:18 DatCnvImp is exiting.
+08/14/2018 00:03:22 Data Conversion is shutting down.
+
+08/14/2018 00:03:24 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 00:06:24 Bottle Summary is shutting down.
+
+08/14/2018 00:17:37 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 00:22:21 Bottle Summary is shutting down.
+
+08/14/2018 00:27:58 Data Conversion is starting up, version 7.26.1.8
+08/14/2018 00:28:10 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-40\SO264-40-2.hex'.
+08/14/2018 00:28:18 DatCnvImp is exiting.
+08/14/2018 00:28:28 Data Conversion is shutting down.
+
+08/14/2018 00:28:31 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 00:31:16 Bottle Summary is shutting down.
+
+08/14/2018 01:47:30 Data Conversion is starting up, version 7.26.1.8
+08/14/2018 01:47:41 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-46-2\SO264-46-2.hex'.
+08/14/2018 01:47:48 DatCnvImp is exiting.
+08/14/2018 01:47:52 Data Conversion is shutting down.
+
+08/14/2018 01:47:55 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 01:50:33 Bottle Summary is shutting down.
+
+08/14/2018 01:55:58 Data Conversion is starting up, version 7.26.1.8
+08/14/2018 01:56:08 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st264-60-2\SO264-60-2.hex'.
+08/14/2018 01:56:17 DatCnvImp is exiting.
+08/14/2018 01:56:21 Data Conversion is shutting down.
+
+08/14/2018 01:56:23 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 01:59:23 Bottle Summary is shutting down.
+
+08/14/2018 02:04:17 Data Conversion is starting up, version 7.26.1.8
+08/14/2018 02:04:27 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\st-264-67\SO264-67-2.hex'.
+08/14/2018 02:04:34 DatCnvImp is exiting.
+08/14/2018 02:04:55 Data Conversion is shutting down.
+
+08/14/2018 02:04:58 Bottle Summary is starting up, version 7.26.1.8
+08/14/2018 02:08:18 Bottle Summary is shutting down.
+
+08/17/2018 23:16:06 Data Conversion is starting up, version 7.26.1.8
+08/17/2018 23:16:49 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\ST-264-77\SO264-77-2.hex'.
+08/17/2018 23:16:54 DatCnvImp is exiting.
+08/17/2018 23:17:01 Data Conversion is shutting down.
+
+08/17/2018 23:17:18 Data Conversion is starting up, version 7.26.1.8
+08/17/2018 23:17:37 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\ST-264-77\SO264-77-2.hex'.
+08/17/2018 23:17:42 DatCnvImp is exiting.
+08/17/2018 23:17:46 Data Conversion is shutting down.
+
+08/17/2018 23:17:48 Filter is starting up, version 7.26.1.8
+08/17/2018 23:18:32 Filter is shutting down.
+
+08/17/2018 23:18:34 Align CTD is starting up, version 7.26.1.8
+08/17/2018 23:18:46 Align CTD is shutting down.
+
+08/17/2018 23:18:50 Loop Edit is starting up, version 7.26.1.8
+08/17/2018 23:19:13 Loop Edit is shutting down.
+
+08/17/2018 23:19:16 Derive is starting up, version 7.26.1.8
+08/17/2018 23:19:28 Derive is shutting down.
+
+08/17/2018 23:19:31 Filter is starting up, version 7.26.1.8
+08/17/2018 23:19:52 Filter is shutting down.
+
+08/17/2018 23:19:55 Derive is starting up, version 7.26.1.8
+08/17/2018 23:20:22 Derive is shutting down.
+
+08/17/2018 23:20:24 Bin Average is starting up, version 7.26.1.8
+08/17/2018 23:20:39 Bin Average is shutting down.
+
+08/17/2018 23:25:31 Data Conversion is starting up, version 7.26.1.8
+08/17/2018 23:25:52 DatCnvImp is processing file 'C:\Users\wiss\Desktop\SO264CTD\ST-264-77\SO264-77-2.hex'.
+08/17/2018 23:26:02 DatCnvImp is exiting.
+08/17/2018 23:26:13 Data Conversion is shutting down.
+
+08/17/2018 23:26:22 Bottle Summary is starting up, version 7.26.1.8
+08/17/2018 23:30:20 Bottle Summary is shutting down.
+
+11/14/2018 11:53:58 Bin Average is starting up, version 7.26.1.8
+11/14/2018 11:56:57 Bin Average is shutting down.
+
+11/14/2018 11:57:12 Data Conversion is starting up, version 7.26.1.8
+11/14/2018 12:00:42 DatCnvImp is processing file 'D:\CTDData\SO266\SO266-CTD-009.hex'.
+11/14/2018 12:01:01 DatCnvImp is exiting.
+11/14/2018 12:01:48 Data Conversion is shutting down.
+
+11/14/2018 12:01:58 Filter is starting up, version 7.26.1.8
+11/14/2018 12:02:10 Filter is shutting down.
+
+11/14/2018 12:02:13 Bin Average is starting up, version 7.26.1.8
+11/15/2018 12:19:16 Bin Average is shutting down.
+
+11/15/2018 12:19:19 Bin Average is starting up, version 7.26.1.8
+11/15/2018 12:19:40 Warning, could not decode variable string =  sbeox0Mm/Kg
+11/15/2018 12:19:40 Warning, could not decode variable string =  sbeox0Mm/Kg
+11/15/2018 12:28:32 Bin Average is shutting down.
+
+11/15/2018 12:28:34 Data Conversion is starting up, version 7.26.1.8
+11/26/2018 00:53:44 Data Conversion is shutting down.
+
+03/13/2019 23:06:24 Data Conversion is starting up, version 7.26.1.8
+03/13/2019 23:07:09 Data Conversion is shutting down.
+
+03/13/2019 23:07:23 Data Conversion is starting up, version 7.26.1.8
+03/13/2019 23:08:12 Data Conversion is shutting down.
+
+03/13/2019 23:16:52 Data Conversion is starting up, version 7.26.1.8
+03/13/2019 23:39:08 Data Conversion is shutting down.
+
+04/01/2019 15:27:26 Data Conversion is starting up, version 7.26.1.8
+04/01/2019 15:29:47 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268-2-86-CTD006.hex'.
+04/01/2019 15:29:55 DatCnvImp is exiting.
+04/01/2019 15:34:16 Data Conversion is shutting down.
+
+04/01/2019 16:52:11 Data Conversion is starting up, version 7.26.1.8
+04/01/2019 16:53:00 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-49-CTD005\SO268-1-49-CTD005.hex'.
+04/01/2019 16:53:21 DatCnvImp is exiting.
+04/01/2019 16:54:37 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-59-CTD006\SO268-1-59-CTD006.hex'.
+04/01/2019 16:54:40 DatCnvImp is exiting.
+04/01/2019 16:57:52 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-59-CTD006\SO268-1-59-CTD006.hex'.
+04/01/2019 16:57:58 DatCnvImp is exiting.
+04/01/2019 16:58:41 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-49-CTD005\SO268-1-49-CTD005.hex'.
+04/01/2019 16:58:52 DatCnvImp is exiting.
+04/01/2019 16:59:01 Data Conversion is shutting down.
+
+04/01/2019 17:16:13 Data Conversion is starting up, version 7.26.1.8
+04/01/2019 17:24:12 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-49-CTD005\SO268-1-49-CTD005.hex'.
+04/01/2019 17:24:23 DatCnvImp is exiting.
+04/01/2019 17:30:38 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-59-CTD006\SO268-1-59-CTD006.hex'.
+04/01/2019 17:30:49 DatCnvImp is exiting.
+04/01/2019 17:34:59 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-59-CTD006\SO268-1-59-CTD006.hex'.
+04/01/2019 17:35:05 DatCnvImp is exiting.
+04/01/2019 17:35:30 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-49-CTD005\SO268-1-49-CTD005.hex'.
+04/01/2019 17:35:43 DatCnvImp is exiting.
+04/01/2019 17:39:14 Data Conversion is shutting down.
+
+04/01/2019 17:39:33 Data Conversion is starting up, version 7.26.1.8
+04/01/2019 17:40:46 Data Conversion is shutting down.
+
+04/02/2019 00:59:21 Data Conversion is starting up, version 7.26.1.8
+04/02/2019 12:21:05 Data Conversion is shutting down.
+
+04/02/2019 16:34:57 Data Conversion is starting up, version 7.26.1.8
+04/02/2019 16:35:53 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_88_1_CTD_008\SO268-2-88_1-CTD008.hex'.
+04/02/2019 16:35:59 DatCnvImp is exiting.
+04/02/2019 16:36:03 Data Conversion is shutting down.
+
+04/03/2019 00:03:27 Data Conversion is starting up, version 7.26.1.8
+04/03/2019 00:03:55 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_88_1_CTD_008\SO268-2-88_1-CTD008_up.hex'.
+04/03/2019 00:03:57 DatCnvImp is exiting.
+04/03/2019 00:04:33 Data Conversion is shutting down.
+
+04/03/2019 15:28:55 Data Conversion is starting up, version 7.26.1.8
+04/03/2019 15:29:16 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_90_1_CTD_009\SO268-2-90_1-CTD009.hex'.
+04/03/2019 15:29:23 DatCnvImp is exiting.
+04/03/2019 15:30:30 Data Conversion is shutting down.
+
+04/03/2019 15:30:41 Data Conversion is starting up, version 7.26.1.8
+04/03/2019 15:31:13 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_90_1_CTD_009\SO268-2-90_1-CTD009.hex'.
+04/03/2019 15:31:18 DatCnvImp is exiting.
+04/03/2019 15:31:20 Data Conversion is shutting down.
+
+04/03/2019 15:31:23 Data Conversion is starting up, version 7.26.1.8
+04/03/2019 15:32:04 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_88_1_CTD_008\SO268-2-88_1-CTD008_up.hex'.
+04/03/2019 15:32:07 DatCnvImp is exiting.
+04/03/2019 15:32:50 Data Conversion is shutting down.
+
+04/04/2019 01:39:37 Data Conversion is starting up, version 7.26.1.8
+04/04/2019 01:39:50 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_92_1_CTD_010\SO268-2-92_1-CTD010.hex'.
+04/04/2019 01:39:56 DatCnvImp is exiting.
+04/04/2019 01:40:27 Data Conversion is shutting down.
+
+04/04/2019 18:04:32 Data Conversion is starting up, version 7.26.1.8
+04/04/2019 18:04:48 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_94_1_CTD_011\SO268-2-94_1-CTD011.hex'.
+04/04/2019 18:04:53 DatCnvImp is exiting.
+04/04/2019 18:04:56 Data Conversion is shutting down.
+
+04/17/2019 08:52:00 Data Conversion is starting up, version 7.26.1.8
+04/17/2019 08:52:31 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_120_1_CTD_012\SO268-2-120-CTD012.hex'.
+04/17/2019 08:52:43 DatCnvImp is exiting.
+04/17/2019 08:52:46 Data Conversion is shutting down.
+
+04/22/2019 03:18:28 Data Conversion is starting up, version 7.26.1.8
+04/22/2019 03:20:17 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_131_1_CTD_013\SO268-2-131-CTD013.hex'.
+04/22/2019 03:20:25 DatCnvImp is exiting.
+04/22/2019 03:26:04 Data Conversion is shutting down.
+
+04/29/2019 17:42:14 Data Conversion is starting up, version 7.26.1.8
+04/29/2019 17:43:05 Data Conversion is shutting down.
+
+04/30/2019 02:23:20 Data Conversion is starting up, version 7.26.1.8
+04/30/2019 02:24:44 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_131_1_CTD_013\SO268-2-131-CTD013.hex'.
+04/30/2019 02:24:52 DatCnvImp is exiting.
+04/30/2019 02:25:14 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_151_1_CTD_014\SO268-2-151-CTD014.hex'.
+04/30/2019 02:25:22 DatCnvImp is exiting.
+04/30/2019 02:25:45 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_159_1_CTD_015\SO268-2-159-CTD015.hex'.
+04/30/2019 02:25:51 DatCnvImp is exiting.
+04/30/2019 02:25:59 Data Conversion is shutting down.
+
+04/30/2019 02:35:06 Data Conversion is starting up, version 7.26.1.8
+04/30/2019 02:35:19 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_120_1_CTD_012\SO268-2-120-CTD012.hex'.
+04/30/2019 02:35:26 DatCnvImp is exiting.
+04/30/2019 02:49:22 Data Conversion is shutting down.
+
+04/30/2019 20:26:04 Data Conversion is starting up, version 7.26.1.8
+04/30/2019 20:27:01 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-14-CTD002\SO268-1-14-CTD002.hex'.
+04/30/2019 20:27:07 DatCnvImp is exiting.
+04/30/2019 20:29:26 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-14-CTD002\SO268-1-14-CTD002.hex'.
+04/30/2019 20:29:33 DatCnvImp is exiting.
+04/30/2019 20:29:53 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-23-CTD003\SO268-1-23-CTD003.hex'.
+04/30/2019 20:29:59 DatCnvImp is exiting.
+04/30/2019 20:30:12 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-47-CTD004\SO268-1-47-CTD004.hex'.
+04/30/2019 20:30:18 DatCnvImp is exiting.
+04/30/2019 20:30:27 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-47-CTD004\SO268-1-47-CTD004-Up.hex'.
+04/30/2019 20:30:29 DatCnvImp is exiting.
+04/30/2019 20:30:39 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-47-CTD004\SO268-1-47-CTD004-Up.hex'.
+04/30/2019 20:30:42 DatCnvImp is exiting.
+04/30/2019 20:31:31 Data Conversion is shutting down.
+
+04/30/2019 20:34:33 Data Conversion is starting up, version 7.26.1.8
+04/30/2019 20:34:49 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-02-CTD001\SO268-1-CTD01.hex'.
+04/30/2019 20:34:54 DatCnvImp is exiting.
+04/30/2019 20:35:00 DatCnvImp is processing file 'D:\CTDData\SO268-1\SO268-1-02-CTD001\SO268-1-CTD01-Up.hex'.
+04/30/2019 20:35:02 DatCnvImp is exiting.
+04/30/2019 20:36:38 Data Conversion is shutting down.
+
+05/11/2019 20:05:48 Data Conversion is starting up, version 7.26.1.8
+05/11/2019 20:06:11 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_183_1_CTD_016\SO268-2-183-CTD016.hex'.
+05/11/2019 20:06:23 DatCnvImp is exiting.
+05/11/2019 20:06:27 Data Conversion is shutting down.
+
+05/17/2019 03:27:58 Data Conversion is starting up, version 7.26.1.8
+05/17/2019 03:28:17 DatCnvImp is processing file 'D:\CTDData\SO268-2\SO268_2_208_1_CTD_017\SO268-2-208-CTD017.hex'.
+05/17/2019 03:28:24 DatCnvImp is exiting.
+05/17/2019 03:28:29 Data Conversion is shutting down.
+
+08/28/2019 06:26:13 Data Conversion is starting up, version 7.26.1.8
+08/28/2019 06:27:47 DatCnvImp is processing file 'D:\CTDData\SO268-3\raw\SO268-3-31-1.hex'.
+08/28/2019 06:28:04 DatCnvImp is exiting.
+08/28/2019 06:28:10 Data Conversion is shutting down.
+
+08/28/2019 06:28:44 Bin Average is starting up, version 7.26.1.8
+08/28/2019 06:29:40 Bin Average is shutting down.
+
+08/28/2019 06:30:54 Data Conversion is starting up, version 7.26.1.8
+08/28/2019 06:31:10 Data Conversion is shutting down.
+
+09/16/2019 07:17:59 Data Conversion is starting up, version 7.26.1.8
+09/16/2019 07:19:12 Data Conversion is shutting down.
+
+11/03/2019 08:17:06 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 03:05:21 Data Conversion is shutting down.
+
+11/04/2019 08:14:42 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 08:30:36 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-001CTD.hex'.
+11/04/2019 08:30:42 DatCnvImp is exiting.
+11/04/2019 08:31:04 Data Conversion is shutting down.
+
+11/04/2019 08:31:10 Wild Edit is starting up, version 7.26.1.8
+11/04/2019 08:36:22 Wild Edit is shutting down.
+
+11/04/2019 08:36:27 Bin Average is starting up, version 7.26.1.8
+11/04/2019 08:46:23 Bin Average is shutting down.
+
+11/04/2019 08:46:28 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 08:56:54 ASCII Out is shutting down.
+
+11/04/2019 08:56:58 Bin Average is starting up, version 7.26.1.8
+11/04/2019 08:57:18 Bin Average is shutting down.
+
+11/04/2019 08:57:22 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 09:29:15 ASCII Out is shutting down.
+
+11/04/2019 09:29:19 Bin Average is starting up, version 7.26.1.8
+11/04/2019 09:30:00 Bin Average is shutting down.
+
+11/04/2019 09:30:07 Wild Edit is starting up, version 7.26.1.8
+11/04/2019 09:31:42 Wild Edit is shutting down.
+
+11/04/2019 09:33:42 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 09:34:32 ASCII Out is shutting down.
+
+11/04/2019 09:34:38 Bin Average is starting up, version 7.26.1.8
+11/04/2019 09:34:56 Bin Average is shutting down.
+
+11/04/2019 09:35:01 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 09:37:44 ASCII Out is shutting down.
+
+11/04/2019 09:40:13 Bin Average is starting up, version 7.26.1.8
+11/04/2019 09:41:38 Bin Average is shutting down.
+
+11/04/2019 09:41:43 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 09:47:22 ASCII Out is shutting down.
+
+11/04/2019 09:57:17 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 09:58:58 Data Conversion is shutting down.
+
+11/04/2019 09:59:12 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 09:59:36 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-001CTD.hex'.
+11/04/2019 09:59:42 DatCnvImp is exiting.
+11/04/2019 09:59:43 Data Conversion is shutting down.
+
+11/04/2019 09:59:49 Wild Edit is starting up, version 7.26.1.8
+11/04/2019 10:01:14 Wild Edit is shutting down.
+
+11/04/2019 10:18:11 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 10:20:43 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-001CTD.hex'.
+11/04/2019 10:20:49 DatCnvImp is exiting.
+11/04/2019 10:20:54 Data Conversion is shutting down.
+
+11/04/2019 10:21:00 Wild Edit is starting up, version 7.26.1.8
+11/04/2019 10:21:16 Wild Edit is shutting down.
+
+11/04/2019 10:21:23 Bin Average is starting up, version 7.26.1.8
+11/04/2019 10:22:08 Bin Average is shutting down.
+
+11/04/2019 10:22:12 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 10:35:12 ASCII Out is shutting down.
+
+11/04/2019 10:35:14 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 10:36:07 Data Conversion is shutting down.
+
+11/04/2019 10:39:55 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 10:43:11 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-001CTD.hex'.
+11/04/2019 10:43:16 DatCnvImp is exiting.
+11/04/2019 10:45:22 Data Conversion is shutting down.
+
+11/04/2019 10:45:27 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 10:45:51 ASCII Out is shutting down.
+
+11/04/2019 10:46:50 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 10:47:13 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-001CTD.hex'.
+11/04/2019 10:47:18 DatCnvImp is exiting.
+11/04/2019 10:47:19 Data Conversion is shutting down.
+
+11/04/2019 10:47:25 Wild Edit is starting up, version 7.26.1.8
+11/04/2019 10:47:42 Wild Edit is shutting down.
+
+11/04/2019 10:47:45 Bin Average is starting up, version 7.26.1.8
+11/04/2019 10:48:02 Bin Average is shutting down.
+
+11/04/2019 10:48:10 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 10:59:40 ASCII Out is shutting down.
+
+11/04/2019 11:09:01 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 11:09:37 ASCII Out is shutting down.
+
+11/04/2019 11:12:03 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 11:28:40 ASCII Out is shutting down.
+
+11/04/2019 11:28:45 Bin Average is starting up, version 7.26.1.8
+11/04/2019 11:29:01 Bin Average is shutting down.
+
+11/04/2019 11:29:07 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 11:30:36 ASCII Out is shutting down.
+
+11/04/2019 11:33:48 ASCII Out is starting up, version 7.26.1.8
+11/04/2019 11:51:22 ASCII Out is shutting down.
+
+11/04/2019 11:51:31 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 11:53:35 Bottle Summary is shutting down.
+
+11/04/2019 11:53:38 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 11:53:48 Data Conversion is shutting down.
+
+11/04/2019 11:53:56 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 11:54:51 Bottle Summary is shutting down.
+
+11/04/2019 11:54:55 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 11:55:05 Data Conversion is shutting down.
+
+11/04/2019 11:55:12 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 11:55:34 Data Conversion is shutting down.
+
+11/04/2019 11:55:37 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 11:55:58 Bottle Summary is shutting down.
+
+11/04/2019 11:56:25 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 11:57:10 Bottle Summary is shutting down.
+
+11/04/2019 11:57:38 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 11:57:52 Bottle Summary is shutting down.
+
+11/04/2019 11:58:00 Data Conversion is starting up, version 7.26.1.8
+11/04/2019 11:58:10 Data Conversion is shutting down.
+
+11/04/2019 11:58:13 Bottle Summary is starting up, version 7.26.1.8
+11/04/2019 12:10:16 Bottle Summary is shutting down.
+
+11/09/2019 07:16:26 Data Conversion is starting up, version 7.26.1.8
+11/09/2019 07:16:56 Data Conversion is shutting down.
+
+11/09/2019 07:18:35 Data Conversion is starting up, version 7.26.1.8
+11/09/2019 07:21:58 Data Conversion is shutting down.
+
+11/09/2019 07:23:51 Data Conversion is starting up, version 7.26.1.8
+11/09/2019 07:25:26 Data Conversion is shutting down.
+
+11/09/2019 07:42:54 Data Conversion is starting up, version 7.26.1.8
+11/09/2019 07:44:01 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-020CTD.hex'.
+11/09/2019 07:44:06 DatCnvImp is exiting.
+11/09/2019 07:44:12 Data Conversion is shutting down.
+
+11/09/2019 07:44:20 Bin Average is starting up, version 7.26.1.8
+11/09/2019 07:45:06 Bin Average is shutting down.
+
+11/09/2019 07:45:10 ASCII Out is starting up, version 7.26.1.8
+11/09/2019 07:46:06 ASCII Out is shutting down.
+
+11/09/2019 07:46:13 Bottle Summary is starting up, version 7.26.1.8
+11/09/2019 07:47:16 Bottle Summary is shutting down.
+
+11/10/2019 11:21:00 Data Conversion is starting up, version 7.26.1.8
+11/10/2019 11:28:36 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-020CTD.hex'.
+11/10/2019 11:28:39 DatCnvImp is exiting.
+11/10/2019 11:32:21 Data Conversion is shutting down.
+
+11/11/2019 03:59:04 Data Conversion is starting up, version 7.26.1.8
+11/11/2019 04:05:09 DatCnvImp is processing file 'Z:\SO271-INDEX2019\CTD Raw Data\Raw DataINDEX2019CTD\INDEX2019-020CTD.hex'.
+11/11/2019 04:05:15 DatCnvImp is exiting.
+11/11/2019 04:05:46 Data Conversion is shutting down.
+
+11/11/2019 04:05:49 Data Conversion is starting up, version 7.26.1.8
+11/11/2019 04:05:55 Data Conversion is shutting down.
+
+11/11/2019 04:06:00 Bin Average is starting up, version 7.26.1.8
+11/11/2019 04:09:28 Bin Average is shutting down.
+
+11/11/2019 04:09:31 Data Conversion is starting up, version 7.26.1.8
+11/11/2019 04:13:08 DatCnvImp is processing file 'Z:\SO271-INDEX2019\CTD Raw Data\Raw DataINDEX2019CTD\INDEX2019-020CTD.hex'.
+11/11/2019 04:13:11 DatCnvImp is exiting.
+11/11/2019 04:13:34 Data Conversion is shutting down.
+
+11/11/2019 04:13:44 Bin Average is starting up, version 7.26.1.8
+11/11/2019 04:28:41 Bin Average is shutting down.
+
+11/11/2019 04:28:44 Data Conversion is starting up, version 7.26.1.8
+11/11/2019 04:30:43 DatCnvImp is processing file 'Z:\SO271-INDEX2019\CTD Raw Data\020CTD\INDEX2019-020CTD.hex'.
+11/11/2019 04:30:46 DatCnvImp is exiting.
+11/11/2019 04:30:59 Data Conversion is shutting down.
+
+11/11/2019 04:31:03 Bin Average is starting up, version 7.26.1.8
+11/11/2019 05:03:54 Bin Average is shutting down.
+
+11/11/2019 05:07:07 Bin Average is starting up, version 7.26.1.8
+11/11/2019 05:13:48 Bin Average is shutting down.
+
+11/18/2019 09:14:39 Bin Average is starting up, version 7.26.1.8
+11/18/2019 09:15:05 Bin Average is shutting down.
+
+11/18/2019 10:30:35 Data Conversion is starting up, version 7.26.1.8
+11/18/2019 11:00:42 Data Conversion is shutting down.
+
+11/18/2019 12:07:46 Data Conversion is starting up, version 7.26.1.8
+11/18/2019 12:10:59 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-049CTD.hex'.
+11/18/2019 12:11:08 DatCnvImp is exiting.
+11/18/2019 12:11:12 Data Conversion is shutting down.
+
+11/18/2019 12:11:15 Bin Average is starting up, version 7.26.1.8
+11/18/2019 12:12:20 Bin Average is shutting down.
+
+11/18/2019 12:12:26 ASCII Out is starting up, version 7.26.1.8
+11/18/2019 12:13:27 ASCII Out is shutting down.
+
+11/18/2019 12:13:34 Bottle Summary is starting up, version 7.26.1.8
+11/18/2019 12:14:24 Bottle Summary is shutting down.
+
+11/18/2019 13:36:35 Data Conversion is starting up, version 7.26.1.8
+11/18/2019 13:37:35 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-050CTD.hex'.
+11/18/2019 13:37:38 DatCnvImp is exiting.
+11/18/2019 13:37:43 Data Conversion is shutting down.
+
+11/18/2019 13:37:47 Bin Average is starting up, version 7.26.1.8
+11/18/2019 13:38:25 Bin Average is shutting down.
+
+11/18/2019 13:38:29 ASCII Out is starting up, version 7.26.1.8
+11/18/2019 13:39:13 ASCII Out is shutting down.
+
+11/18/2019 13:39:24 Bottle Summary is starting up, version 7.26.1.8
+11/18/2019 13:40:04 Bottle Summary is shutting down.
+
+11/19/2019 04:50:00 Data Conversion is starting up, version 7.26.1.8
+11/19/2019 04:56:36 DatCnvImp is processing file 'Z:\SO271-INDEX2019\_Bathy-Processing\INDEX2019_048CTD\Rawdata\INDEX2019-048CTD.hex'.
+11/19/2019 04:56:40 DatCnvImp is exiting.
+11/19/2019 04:56:46 Data Conversion is shutting down.
+
+11/19/2019 04:56:57 Bin Average is starting up, version 7.26.1.8
+11/19/2019 05:01:12 Bin Average is shutting down.
+
+11/28/2019 04:38:28 Bottle Summary is starting up, version 7.26.1.8
+11/28/2019 04:39:56 Bottle Summary is shutting down.
+
+11/29/2019 06:03:22 Data Conversion is starting up, version 7.26.1.8
+11/29/2019 06:32:45 Data Conversion is shutting down.
+
+11/30/2019 07:27:02 Data Conversion is starting up, version 7.26.1.8
+11/30/2019 07:28:26 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-085CTD.hex'.
+11/30/2019 07:28:33 DatCnvImp is exiting.
+11/30/2019 07:28:41 Data Conversion is shutting down.
+
+11/30/2019 07:28:46 Bin Average is starting up, version 7.26.1.8
+11/30/2019 07:29:40 Bin Average is shutting down.
+
+11/30/2019 07:29:53 ASCII Out is starting up, version 7.26.1.8
+11/30/2019 07:30:56 ASCII Out is shutting down.
+
+11/30/2019 07:31:11 Bottle Summary is starting up, version 7.26.1.8
+11/30/2019 07:34:31 Bottle Summary is shutting down.
+
+11/30/2019 07:34:39 Bottle Summary is starting up, version 7.26.1.8
+11/30/2019 07:38:16 Bottle Summary is shutting down.
+
+11/30/2019 07:38:43 Bin Average is starting up, version 7.26.1.8
+11/30/2019 07:39:31 Bin Average is shutting down.
+
+11/30/2019 07:39:42 Bin Average is starting up, version 7.26.1.8
+11/30/2019 07:40:38 Bin Average is shutting down.
+
+11/30/2019 07:40:46 ASCII Out is starting up, version 7.26.1.8
+11/30/2019 07:41:53 ASCII Out is shutting down.
+
+11/30/2019 07:58:09 Data Conversion is starting up, version 7.26.1.8
+11/30/2019 08:01:08 DatCnvImp is processing file 'Z:\SO271-INDEX2019\_Bathy-Processing\INDEX2019_085CTD\INDEX2019-085CTD.hex'.
+11/30/2019 08:01:11 DatCnvImp is exiting.
+11/30/2019 08:01:40 Data Conversion is shutting down.
+
+11/30/2019 08:01:45 Bin Average is starting up, version 7.26.1.8
+11/30/2019 08:06:13 Bin Average is shutting down.
+
+12/08/2019 07:24:29 Data Conversion is starting up, version 7.26.1.8
+12/08/2019 07:25:21 DatCnvImp is processing file 'D:\CTDData\SO271-1\Raw DataINDEX2019CTD\INDEX2019-108CTD.hex'.
+12/08/2019 07:25:29 DatCnvImp is exiting.
+12/08/2019 07:25:40 Data Conversion is shutting down.
+
+12/08/2019 07:27:42 Bin Average is starting up, version 7.26.1.8
+12/08/2019 07:28:36 Bin Average is shutting down.
+
+12/08/2019 07:28:41 ASCII Out is starting up, version 7.26.1.8
+12/08/2019 07:30:30 ASCII Out is shutting down.
+
+12/08/2019 07:30:37 Bin Average is starting up, version 7.26.1.8
+12/08/2019 07:31:38 Bin Average is shutting down.
+
+12/08/2019 07:31:42 ASCII Out is starting up, version 7.26.1.8
+12/08/2019 07:32:18 ASCII Out is shutting down.
+
+12/08/2019 07:35:14 Bin Average is starting up, version 7.26.1.8
+12/08/2019 07:36:56 Bin Average is shutting down.
+
+12/08/2019 07:37:02 ASCII Out is starting up, version 7.26.1.8
+12/08/2019 07:37:57 ASCII Out is shutting down.
+
+12/08/2019 07:40:12 Bottle Summary is starting up, version 7.26.1.8
+12/08/2019 07:40:44 Bottle Summary is shutting down.
+
+12/08/2019 07:47:10 Bin Average is starting up, version 7.26.1.8
+12/08/2019 07:48:43 Bin Average is shutting down.
+
+12/08/2019 07:49:00 ASCII Out is starting up, version 7.26.1.8
+12/08/2019 07:50:54 ASCII Out is shutting down.
+
+12/08/2019 14:44:59 Data Conversion is starting up, version 7.26.1.8
+12/08/2019 14:49:13 DatCnvImp is processing file 'Z:\SO271-INDEX2019\_Bathy-Processing\INDEX2019_108CTD\INDEX2019-108CTD.hex'.
+12/08/2019 14:49:16 DatCnvImp is exiting.
+12/08/2019 14:49:43 Data Conversion is shutting down.
+
+12/08/2019 14:49:51 Bin Average is starting up, version 7.26.1.8
+12/08/2019 14:51:43 Bin Average is shutting down.
+
+12/22/2019 05:36:29 Data Conversion is starting up, version 7.26.1.8
+12/22/2019 05:56:44 Data Conversion is shutting down.
+
+03/11/2020 14:35:54 Data Conversion is starting up, version 7.26.1.8
+03/11/2020 14:40:14 Data Conversion is shutting down.
+
+03/11/2020 14:42:06 Bin Average is starting up, version 7.26.1.8
+03/11/2020 14:42:20 Bin Average is shutting down.
+
+03/13/2020 14:27:49 Data Conversion is starting up, version 7.26.1.8
+03/13/2020 14:31:01 DatCnvImp is processing file 'D:\CTDData\SO273\SO273-007CTD.hex'.
+03/13/2020 14:31:05 DatCnvImp is exiting.
+03/13/2020 14:32:06 DatCnvImp is processing file 'D:\CTDData\SO273\SO273-007CTD.hex'.
+03/13/2020 14:32:08 DatCnvImp is exiting.
+03/13/2020 14:32:14 Data Conversion is shutting down.
+
+03/13/2020 14:32:18 Bin Average is starting up, version 7.26.1.8
+03/13/2020 14:32:50 Bin Average is shutting down.
+
+03/17/2020 20:45:44 Data Conversion is starting up, version 7.26.1.8
+
+03/18/2020 12:53:55 Data Conversion is starting up, version 7.26.1.8
+03/18/2020 12:54:30 DatCnvImp is processing file 'D:\CTDData\SO273\SO273-023CTD-T.hex'.
+03/18/2020 12:54:43 DatCnvImp is exiting.
+03/18/2020 12:54:55 Data Conversion is shutting down.
+03/18/2020 16:56:52 Data Conversion is shutting down.
+
+03/18/2020 16:56:54 Data Conversion is starting up, version 7.26.1.8
+03/18/2020 16:58:51 DatCnvImp is processing file 'D:\CTDData\SO273\SO273-023CTD-T.hex'.
+03/18/2020 16:58:54 DatCnvImp is exiting.
+03/18/2020 16:59:06 Data Conversion is shutting down.
+
+03/18/2020 16:59:11 Bin Average is starting up, version 7.26.1.8
+03/18/2020 17:02:41 Bin Average is shutting down.
+
+06/24/2020 23:45:10 Data Conversion is starting up, version 7.26.1.8
+06/24/2020 23:52:35 DatCnvImp is processing file 'D:\CTDData\Test\001_CTD_001.hex'.
+06/24/2020 23:52:37 WARNING: no bottles fired - .ROS file will be deleted.
+06/24/2020 23:52:37 DatCnvImp is exiting.
+06/24/2020 23:54:16 DatCnvImp is processing file 'D:\CTDData\Test\001_CTD_001.hex'.
+06/24/2020 23:54:18 WARNING: no bottles fired - .ROS file will be deleted.
+06/24/2020 23:54:18 DatCnvImp is exiting.
+06/24/2020 23:56:11 DatCnvImp is processing file 'D:\CTDData\Test\001_CTD_001.hex'.
+06/24/2020 23:56:13 WARNING: no bottles fired - .ROS file will be deleted.
+06/24/2020 23:56:13 DatCnvImp is exiting.
+06/25/2020 00:01:34 Data Conversion is shutting down.
+
+06/25/2020 01:40:09 Data Conversion is starting up, version 7.26.1.8
+06/25/2020 01:40:47 Data Conversion is shutting down.
+
+06/27/2020 01:24:41 Data Conversion is starting up, version 7.26.1.8
+06/27/2020 01:26:29 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\013_CTD_001_down.hex'.
+06/27/2020 01:26:32 WARNING: no bottles fired - .ROS file will be deleted.
+06/27/2020 01:26:32 DatCnvImp is exiting.
+06/27/2020 01:26:35 Data Conversion is shutting down.
+
+06/27/2020 01:38:08 Data Conversion is starting up, version 7.26.1.8
+06/27/2020 01:38:45 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\013_CTD_001_down.hex'.
+06/27/2020 01:38:51 WARNING: no bottles fired - .ROS file will be deleted.
+06/27/2020 01:38:51 DatCnvImp is exiting.
+06/27/2020 01:39:10 Data Conversion is shutting down.
+
+07/03/2020 03:09:32 Data Conversion is starting up, version 7.26.1.8
+07/03/2020 03:10:03 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\043_CTD_001_down.hex'.
+07/03/2020 03:10:04 WARNING: no bottles fired - .ROS file will be deleted.
+07/03/2020 03:10:04 DatCnvImp is exiting.
+07/03/2020 03:10:09 Data Conversion is shutting down.
+
+07/06/2020 20:34:47 Data Conversion is starting up, version 7.26.1.8
+07/06/2020 20:35:24 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\067_CTD_001_down.hex'.
+07/06/2020 20:35:25 WARNING: no bottles fired - .ROS file will be deleted.
+07/06/2020 20:35:25 DatCnvImp is exiting.
+07/06/2020 20:35:39 Data Conversion is shutting down.
+
+07/07/2020 06:10:51 Data Conversion is starting up, version 7.26.1.8
+07/07/2020 06:11:07 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\071_CTD_001_down.hex'.
+07/07/2020 06:11:08 WARNING: no bottles fired - .ROS file will be deleted.
+07/07/2020 06:11:09 DatCnvImp is exiting.
+07/07/2020 06:11:11 Data Conversion is shutting down.
+
+07/07/2020 11:03:00 Data Conversion is starting up, version 7.26.1.8
+07/07/2020 11:03:26 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\077_CTD_001_down.hex'.
+07/07/2020 11:03:27 WARNING: no bottles fired - .ROS file will be deleted.
+07/07/2020 11:03:27 DatCnvImp is exiting.
+07/07/2020 11:03:29 Data Conversion is shutting down.
+
+07/07/2020 15:32:04 Data Conversion is starting up, version 7.26.1.8
+07/07/2020 15:32:28 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\083_CTD_001_down.hex'.
+07/07/2020 15:32:29 WARNING: no bottles fired - .ROS file will be deleted.
+07/07/2020 15:32:29 DatCnvImp is exiting.
+07/07/2020 15:32:35 Data Conversion is shutting down.
+
+07/11/2020 14:52:57 Data Conversion is starting up, version 7.26.1.8
+07/11/2020 14:53:51 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\099_CTD_001_down.hex'.
+07/11/2020 14:53:53 WARNING: no bottles fired - .ROS file will be deleted.
+07/11/2020 14:53:53 DatCnvImp is exiting.
+07/11/2020 14:54:01 Data Conversion is shutting down.
+
+07/16/2020 09:01:03 Data Conversion is starting up, version 7.26.1.8
+07/16/2020 09:01:31 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\114_CTD_001_down.hex'.
+07/16/2020 09:01:34 WARNING: no bottles fired - .ROS file will be deleted.
+07/16/2020 09:01:34 DatCnvImp is exiting.
+07/16/2020 09:02:01 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\108_CTD_001_Smoker.hex'.
+07/16/2020 09:02:03 WARNING: no bottles fired - .ROS file will be deleted.
+07/16/2020 09:02:03 DatCnvImp is exiting.
+07/16/2020 09:02:06 Data Conversion is shutting down.
+
+07/19/2020 05:16:07 Data Conversion is starting up, version 7.26.1.8
+07/19/2020 05:16:39 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\125_CTD_001_down.hex'.
+07/19/2020 05:16:42 WARNING: no bottles fired - .ROS file will be deleted.
+07/19/2020 05:16:43 DatCnvImp is exiting.
+07/19/2020 05:16:47 Data Conversion is shutting down.
+
+07/20/2020 00:32:25 Data Conversion is starting up, version 7.26.1.8
+07/20/2020 00:32:42 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\129_CTD_001_down.hex'.
+07/20/2020 00:32:48 WARNING: no bottles fired - .ROS file will be deleted.
+07/20/2020 00:32:49 DatCnvImp is exiting.
+07/20/2020 00:33:01 DatCnvImp is processing file 'Z:\IceAge3_MerMet17-6\CTD\129_CTD_001_down.hex'.
+07/20/2020 00:33:05 WARNING: no bottles fired - .ROS file will be deleted.
+07/20/2020 00:33:05 DatCnvImp is exiting.
+07/20/2020 00:33:07 Data Conversion is shutting down.
+
+07/22/2020 13:34:09 Data Conversion is starting up, version 7.26.1.8
+07/22/2020 16:45:23 Data Conversion is shutting down.
+
+10/24/2020 10:31:33 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 10:35:59 Data Conversion is shutting down.
+
+10/24/2020 10:37:23 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 10:37:29 Data Conversion is shutting down.
+
+10/24/2020 11:22:57 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 12:43:48 Data Conversion is shutting down.
+
+10/24/2020 20:47:04 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 20:50:53 Data Conversion is shutting down.
+
+10/24/2020 20:51:01 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 21:04:20 DatCnvImp is processing file 'D:\CTDData\SO278\CTD01_GeoB24304-1.hex'.
+10/24/2020 21:04:25 DatCnvImp is exiting.
+10/24/2020 21:04:46 Data Conversion is shutting down.
+
+10/24/2020 21:04:50 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:05:28 Bottle Summary is shutting down.
+
+10/24/2020 21:06:58 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:07:41 Bottle Summary is shutting down.
+
+10/24/2020 21:07:44 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:08:06 Bottle Summary is shutting down.
+
+10/24/2020 21:08:39 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 21:08:52 Data Conversion is shutting down.
+
+10/24/2020 21:09:06 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:10:32 Bottle Summary is shutting down.
+
+10/24/2020 21:10:34 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 21:13:02 Data Conversion is shutting down.
+
+10/24/2020 21:13:07 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:13:18 Bottle Summary is shutting down.
+
+10/24/2020 21:13:30 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 21:13:34 Data Conversion is shutting down.
+
+10/24/2020 21:13:36 Bottle Summary is starting up, version 7.26.1.8
+10/24/2020 21:14:11 Bottle Summary is shutting down.
+
+10/24/2020 21:14:59 Data Conversion is starting up, version 7.26.1.8
+10/24/2020 21:16:23 Data Conversion is shutting down.
+
+10/25/2020 11:06:50 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 11:10:20 DatCnvImp is processing file 'D:\CTDData\SO278\CTD01_GeoB24304-1.hex'.
+10/25/2020 11:10:23 DatCnvImp is exiting.
+10/25/2020 11:12:03 Data Conversion is shutting down.
+
+10/25/2020 11:12:13 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 11:51:26 Bottle Summary is shutting down.
+
+10/25/2020 11:51:31 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 11:58:51 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD01_GeoB24304-1.hex'.
+10/25/2020 11:58:55 DatCnvImp is exiting.
+10/25/2020 11:59:46 Data Conversion is shutting down.
+
+10/25/2020 11:59:50 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:01:02 Bottle Summary is shutting down.
+
+10/25/2020 12:01:05 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:03:11 Data Conversion is shutting down.
+
+10/25/2020 12:03:15 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:03:18 Data Conversion is shutting down.
+
+10/25/2020 12:03:20 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:04:48 Bottle Summary is shutting down.
+
+10/25/2020 12:07:24 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:08:04 Data Conversion is shutting down.
+
+10/25/2020 12:08:06 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:08:44 Bottle Summary is shutting down.
+
+10/25/2020 12:08:47 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:18:04 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD01_GeoB24304-1.hex'.
+10/25/2020 12:18:09 DatCnvImp is exiting.
+10/25/2020 12:18:33 Data Conversion is shutting down.
+
+10/25/2020 12:18:49 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:19:03 Data Conversion is shutting down.
+
+10/25/2020 12:19:08 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:19:34 Data Conversion is shutting down.
+
+10/25/2020 12:19:36 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:20:04 Bottle Summary is shutting down.
+
+10/25/2020 12:20:06 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:24:28 Data Conversion is shutting down.
+
+10/25/2020 12:24:46 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:26:47 Bottle Summary is shutting down.
+
+10/25/2020 12:26:49 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:34:30 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD01_GeoB24304-1.hex'.
+10/25/2020 12:34:36 DatCnvImp is exiting.
+10/25/2020 12:34:56 Data Conversion is shutting down.
+
+10/25/2020 12:35:00 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:35:35 Bottle Summary is shutting down.
+
+10/25/2020 12:36:10 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:36:44 Bottle Summary is shutting down.
+
+10/25/2020 12:37:21 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:37:26 Data Conversion is shutting down.
+
+10/25/2020 12:37:30 Bottle Summary is starting up, version 7.26.1.8
+10/25/2020 12:38:06 Bottle Summary is shutting down.
+
+10/25/2020 12:38:15 ASCII Out is starting up, version 7.26.1.8
+10/25/2020 12:38:24 ASCII Out is shutting down.
+
+10/25/2020 12:38:27 Data Conversion is starting up, version 7.26.1.8
+10/25/2020 12:41:27 Data Conversion is shutting down.
+
+10/29/2020 10:17:48 Data Conversion is starting up, version 7.26.1.8
+10/29/2020 10:18:17 DatCnvImp is processing file 'D:\CTDData\SO278\CTD02_GeoB24314-1.hex'.
+10/29/2020 10:18:25 DatCnvImp is exiting.
+10/29/2020 10:18:31 Data Conversion is shutting down.
+
+10/29/2020 10:18:34 Bottle Summary is starting up, version 7.26.1.8
+10/29/2020 10:19:16 Bottle Summary is shutting down.
+
+10/30/2020 12:08:52 Filter is starting up, version 7.26.1.8
+10/30/2020 12:09:00 Filter is shutting down.
+
+10/30/2020 12:09:11 ASCII Out is starting up, version 7.26.1.8
+10/30/2020 12:09:13 ASCII Out is shutting down.
+
+10/30/2020 12:09:19 Data Conversion is starting up, version 7.26.1.8
+10/30/2020 12:11:08 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD02_GeoB24314-1.hex'.
+10/30/2020 12:11:11 DatCnvImp is exiting.
+10/30/2020 12:14:12 Data Conversion is shutting down.
+
+11/04/2020 15:04:35 Data Conversion is starting up, version 7.26.1.8
+11/04/2020 15:05:30 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD03_GeoB24331-1.hex'.
+11/04/2020 15:05:36 DatCnvImp is exiting.
+11/04/2020 15:06:21 Data Conversion is shutting down.
+
+11/04/2020 15:06:24 Bottle Summary is starting up, version 7.26.1.8
+11/04/2020 15:07:08 Bottle Summary is shutting down.
+
+11/06/2020 18:22:31 Data Conversion is starting up, version 7.26.1.8
+11/06/2020 18:24:04 Data Conversion is shutting down.
+
+11/06/2020 18:38:01 Data Conversion is starting up, version 7.26.1.8
+11/06/2020 18:38:47 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD04_GeoB24334-1.hex'.
+11/06/2020 18:38:53 DatCnvImp is exiting.
+11/06/2020 18:39:00 Data Conversion is shutting down.
+
+11/06/2020 18:39:03 Bottle Summary is starting up, version 7.26.1.8
+11/06/2020 18:40:29 Bottle Summary is shutting down.
+
+11/07/2020 16:58:07 Data Conversion is starting up, version 7.26.1.8
+11/07/2020 16:59:01 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD04_GeoB24334-1.hex'.
+11/07/2020 16:59:03 DatCnvImp is exiting.
+11/07/2020 16:59:08 Data Conversion is shutting down.
+
+11/09/2020 09:11:53 Data Conversion is starting up, version 7.26.1.8
+11/09/2020 09:12:44 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD05_GeoB24339-1.hex'.
+11/09/2020 09:12:49 DatCnvImp is exiting.
+11/09/2020 09:13:58 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD05_GeoB24339-1.hex'.
+11/09/2020 09:14:00 WARNING: no bottles fired - .ROS file will be deleted.
+11/09/2020 09:14:00 DatCnvImp is exiting.
+11/09/2020 09:14:07 Data Conversion is shutting down.
+
+11/09/2020 09:14:14 Bottle Summary is starting up, version 7.26.1.8
+11/09/2020 09:15:12 Bottle Summary is shutting down.
+
+11/11/2020 19:04:50 Data Conversion is starting up, version 7.26.1.8
+11/11/2020 19:05:08 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD06_GeoB24348-1.hex'.
+11/11/2020 19:05:14 DatCnvImp is exiting.
+11/11/2020 19:05:23 Data Conversion is shutting down.
+
+11/11/2020 19:05:28 Data Conversion is starting up, version 7.26.1.8
+11/11/2020 19:05:53 DatCnvImp is processing file 'D:\CTDData\SO278\work\CTD06_GeoB24348-1.hex'.
+11/11/2020 19:05:55 WARNING: no bottles fired - .ROS file will be deleted.
+11/11/2020 19:05:56 DatCnvImp is exiting.
+11/11/2020 19:06:00 Data Conversion is shutting down.
+
+11/11/2020 19:06:05 Bottle Summary is starting up, version 7.26.1.8
+11/11/2020 19:06:28 Bottle Summary is shutting down.
+
+12/10/2020 08:30:32 Bin Average is starting up, version 7.26.1.8
+12/10/2020 08:30:38 Bin Average is shutting down.
+
+12/10/2020 08:30:45 Data Conversion is starting up, version 7.26.1.8
+12/10/2020 08:31:17 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/10/2020 08:31:20 WARNING: no bottles fired - .ROS file will be deleted.
+12/10/2020 08:31:21 DatCnvImp is exiting.
+12/10/2020 08:31:25 Data Conversion is shutting down.
+
+12/10/2020 08:32:54 Data Conversion is starting up, version 7.26.1.8
+12/10/2020 08:38:51 Data Conversion is shutting down.
+
+12/10/2020 08:39:07 Data Conversion is starting up, version 7.26.1.8
+12/10/2020 08:41:50 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/10/2020 08:41:52 WARNING: 5 scan length errors.  Expected scan length = 82.
+12/10/2020 08:41:52 DatCnvImp is exiting.
+12/10/2020 08:42:58 Data Conversion is shutting down.
+
+12/10/2020 08:43:06 Bin Average is starting up, version 7.26.1.8
+12/10/2020 08:44:48 Bin Average is shutting down.
+
+12/10/2020 08:45:42 Data Conversion is starting up, version 7.26.1.8
+12/10/2020 08:46:43 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/10/2020 08:46:46 WARNING: 5 scan length errors.  Expected scan length = 82.
+12/10/2020 08:46:46 DatCnvImp is exiting.
+12/10/2020 08:46:51 Data Conversion is shutting down.
+
+12/10/2020 08:51:52 Data Conversion is starting up, version 7.26.1.8
+12/14/2020 00:20:11 Data Conversion is shutting down.
+
+12/17/2020 08:06:22 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 08:06:50 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_36-1_CTD-01.hex'.
+12/17/2020 08:06:53 DatCnvImp is exiting.
+12/17/2020 08:06:59 Data Conversion is shutting down.
+
+12/17/2020 08:08:21 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 08:10:46 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/17/2020 08:10:49 DatCnvImp is exiting.
+12/17/2020 08:10:54 Data Conversion is shutting down.
+
+12/17/2020 08:13:14 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 08:13:45 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/17/2020 08:13:48 DatCnvImp is exiting.
+12/17/2020 08:15:07 Data Conversion is shutting down.
+
+12/17/2020 08:15:11 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 08:15:19 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_1-1_CTD-01.hex'.
+12/17/2020 08:15:22 DatCnvImp is exiting.
+12/17/2020 08:17:47 Data Conversion is shutting down.
+
+12/17/2020 08:17:49 Bin Average is starting up, version 7.26.1.8
+12/17/2020 08:18:57 Bin Average is shutting down.
+
+12/17/2020 21:27:46 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 21:29:30 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_36-1_CTD-01.hex'.
+12/17/2020 21:29:33 DatCnvImp is exiting.
+12/17/2020 21:29:38 Data Conversion is shutting down.
+
+12/17/2020 21:29:41 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 21:29:43 Data Conversion is shutting down.
+
+12/17/2020 21:29:51 Bin Average is starting up, version 7.26.1.8
+12/17/2020 21:30:47 Bin Average is shutting down.
+
+12/17/2020 21:34:43 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 21:35:39 DatCnvImp is processing file 'D:\CTDData\SO279\SO279_36-1_CTD-01.hex'.
+12/17/2020 21:35:42 DatCnvImp is exiting.
+12/17/2020 21:35:48 Data Conversion is shutting down.
+
+12/17/2020 21:35:53 Bin Average is starting up, version 7.26.1.8
+12/17/2020 21:36:53 Bin Average is shutting down.
+
+12/17/2020 21:38:47 Data Conversion is starting up, version 7.26.1.8
+12/17/2020 21:39:12 Data Conversion is shutting down.
+
+12/17/2020 21:43:32 Data Conversion is starting up, version 7.26.1.8

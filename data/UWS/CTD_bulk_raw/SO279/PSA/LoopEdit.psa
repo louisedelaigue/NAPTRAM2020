@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Loop_Edit >
+  <Version value="7.26.1.8" />
+  <ServerName value="Loop Edit" />
+  <InputDir value="C:\Users\wiss\Desktop\SO264CTD\ST-264-77" />
+  <InputFileArray size="1" GrowBy="-1" >
+    <ArrayItem index="0" value="SO264-77-2_dervbb2_ftb2_alg.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\Users\wiss\Desktop\SO264CTD\ST-264-77" />
+  <NameAppend value="_loop" />
+  <OutputFile value="SO264-77-2_dervbb2_ftb2_alg.cnv" />
+  <LastProcessed value="0" />
+  <MinVelocityType value="0" high="1" low="0" initialValue="0" />
+  <MinCTD_Velocity value="0.000000" />
+  <TimeWindowSize value="300.000000" />
+  <PercentMeanSpeed value="20.000000" />
+  <ExcludeMarkedBad value="1" />
+  <RemoveSurfaceSoak value="1" />
+  <UseDeckPressure value="1" />
+  <SurfaceSoakDepth value="10.000000" />
+  <SurfaceSoakDepthMin value="5.000000" />
+  <SurfaceSoakDepthMax value="20.000000" />
+</Loop_Edit>

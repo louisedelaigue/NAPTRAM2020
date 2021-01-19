@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Derive >
+  <Version value="7.26.1.8" />
+  <ServerName value="Derive" />
+  <InstrumentPath value="C:\Users\wiss\Desktop\SO264CTD\st264-1\SO264-1-2.XMLCON" />
+  <InstrumentMatch value="0" />
+  <InputDir value="C:\Users\wiss\Desktop\SO264CTD\ST-264-77" />
+  <InputFileArray size="1" GrowBy="-1" >
+    <ArrayItem index="0" value="SO264-77-2_dervbb2_ftb2_alg_loop_ftb2.cnv" />
+  </InputFileArray>
+  <OutputDir value="C:\Users\wiss\Desktop\SO264CTD\ST-264-77" />
+  <NameAppend value="_der" />
+  <OutputFile value="SO264-77-2_dervbb2_ftb2_alg_loop_ftb2.cnv" />
+  <LastProcessed value="0" />
+  <CalcArray Size="2" >
+    <CalcArrayItem index="0" CalcID="70" >
+      <Calc UnitID="49" Ordinal="0" >
+        <FullName value="Salinity, Practical [PSU]" />
+      </Calc>
+    </CalcArrayItem>
+    <CalcArrayItem index="1" CalcID="15" >
+      <Calc UnitID="53" Ordinal="0" >
+        <FullName value="Density [sigma-theta, kg/m^3]" />
+      </Calc>
+    </CalcArrayItem>
+  </CalcArray>
+  <MiscellaneousDataForCalculations >
+    <Latitude value="0.000000" />
+    <Longitude value="0.000000" />
+    <DescentRateAndAcceleration >
+      <WindowSize value="2.000000" />
+    </DescentRateAndAcceleration>
+    <Oxygen >
+      <WindowSize value="2.000000" />
+      <ApplyHysteresisCorrection value="1" />
+      <ApplyTauCorrection value="1" />
+    </Oxygen>
+    <AverageSoundVelocity >
+      <MinimumPressure value="20.000000" />
+      <MinimumSalinity value="20.000000" />
+      <PressureWindowSize value="20.000000" />
+      <TimeWindowSize value="60.000000" />
+    </AverageSoundVelocity>
+    <PlumeAnomaly >
+      <ThetaB value="0.000000" />
+      <SalinityB value="0.000000" />
+      <ThetaZSalinityZRatio value="0.000000" />
+      <ReferencePressure value="0.000000" />
+    </PlumeAnomaly>
+    <PotentialTempAnomaly >
+      <A0 value="0.000000" />
+      <A1 value="0.000000" />
+      <A1Multiplier value="0" />
+    </PotentialTempAnomaly>
+  </MiscellaneousDataForCalculations>
+</Derive>

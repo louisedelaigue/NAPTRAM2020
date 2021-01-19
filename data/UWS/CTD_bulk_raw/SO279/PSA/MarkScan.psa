@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mark_Scan >
+  <Version value="7.26.1.8" />
+  <ServerName value="Mark Scan" />
+  <InputDir value="C:\Program Files (x86)\Sea-Bird\SBEDataProcessing-Win32" />
+  <InputFileArray size="0" GrowBy="-1" />
+  <OutputDir value="C:\Program Files (x86)\Sea-Bird\SBEDataProcessing-Win32" />
+  <NameAppend value="" />
+  <OutputFile value="" />
+  <LastProcessed value="0" />
+  <Offset value="-5" />
+  <Duration value="10" />
+</Mark_Scan>

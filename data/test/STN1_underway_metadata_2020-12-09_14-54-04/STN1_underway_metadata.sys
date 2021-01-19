@@ -1,0 +1,16 @@
+2020/12/09 14:55:07.515	State=Finished                                          
+================================================================================
+2020/12/09 14:54:04.263	Using version 1.4.0.0 : 1.4.1.0
+2020/12/09 14:54:04.280	platformId:SO
+2020/12/09 14:54:04.280	platformName:FS Sonne
+2020/12/09 14:54:04.280	callSign:DBBE
+2020/12/09 14:54:04.280	expoCode:06SN
+2020/12/09 14:54:04.280	imoCode:9633927
+2020/12/09 14:54:04.281	Order file: order_4080651910098104319.xml
+2020/12/09 14:54:04.281	Exporting DataLog data
+2020/12/09 14:54:04.281	Selected time interval: from 2020/12/08 20:00:00 to 2020/12/09 18:00:00
+2020/12/09 14:54:04.281	Exporting the following parameters:	SMB.RSSMB.Chl	SMB.RSSMB.C_SBE45	SMB.RSSMB.Date	SMB.RSSMB.Delay	SMB.RSSMB.Depth	SMB.RSSMB.EW	SMB.RSSMB.Flow	SMB.RSSMB.Latitude	SMB.RSSMB.Longitude	SMB.RSSMB.Name	SMB.RSSMB.NS	SMB.RSSMB.RVK	SMB.RSSMB.Sal_SBE45	SMB.RSSMB.Sentence	SMB.RSSMB.SMB_SN	SMB.RSSMB.SV_SBE45	SMB.RSSMB.SV_insito	SMB.RSSMB.Status	SMB.RSSMB.SV_AML	SMB.RSSMB.T_SBE38	SMB.RSSMB.T_SBE45	SMB.RSSMB.Time	SMB.RSSMB.Tur
+2020/12/09 14:55:07.515	DataLog Export: 100% of interval processed
+2020/12/09 14:55:07.515	DataLog Export: 79200 lines exported
+2020/12/09 14:55:07.515	Export finished
+Result=OK
