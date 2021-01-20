@@ -126,3 +126,7 @@ data_small.reset_index(inplace=True, drop=True)
 smb_small = smb[0:150]
 smb_small.reset_index(inplace=True, drop=True)
 
+#%% test cumcount
+smb_small['seconds'] = np.nan
+smb_small['seconds'] = smb_small.groupby('time').cumcount()+1
+
