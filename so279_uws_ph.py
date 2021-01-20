@@ -59,18 +59,20 @@ smb_list = []
 for file in chunky:
     file = file.drop([file.index[0], file.index[1]])
     file.reset_index(drop=True)
-    new = {
+    rn = {
        'SMB.RSSMB.T_SBE38':'SBE38_water_temp'
        }
-    file.rename(new, axis=1, inplace=True)
-    file.dropna(subset=['temp_source'], inplace=True)
+    file.rename(rn, axis=1, inplace=True)
+    file.dropna(subset=['SBE38_water_temp'], inplace=True)
     smb_list.append(file)
 
 # create 1 df holding all cleaned up smb data
 smb = pd.concat(smb_list)
+
+# rename headers with python friendly names
 rn = {
       'date time':'time',
-      'WeatherStation.PDWDC.Airtemperature':'WS_airtemp'
+      'WeatherStation.PDWDC.Airtemperature':'WS_airtemp',
       'WeatherStation.PDWDC.Barometric':'WS_baro',
       'WeatherStation.PDWC.Course':'WS_course',
       'WeatherStation.PDWC.Date':'WS_date',
@@ -85,7 +87,7 @@ rn = {
       'WeatherStation.PDWC.Sentence':'WS_sentence',
       'WeatherStation.PDWC.Shortwave':'WS_shortwave',
       'WeatherStation.PDWC.Speed':'WS_speed',
-      'WeatherStation.PDWC.Timestamp':'WS_timestamp'
+      'WeatherStation.PDWC.Timestamp':'WS_timestamp',
       'WeatherStation.PDWC.Watertemperature':'WS_watertemp',
       'WeatherStation.PDWC.Winddirection_rel':'WS_winddirection_rel',
       'WeatherStation.PDWC.Winddirection_true':'WS_winddirection_true',
@@ -115,6 +117,8 @@ rn = {
       'SMB.RSSMB.Time':'smb_time',
       'SMB.RSSMB.Tur':'smb_tur'
       }
+
+smb.rename(rn, axis=1, inplace=True)
 
 # subset smb df to open more easily
 smb_small = smb[0:100]
