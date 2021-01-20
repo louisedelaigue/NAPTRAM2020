@@ -44,23 +44,21 @@ for file in file_list:
 # turn dict into single df
 data = pd.concat(data_dict.values(), ignore_index=True)
 
-#%% Deal with SMB file
+# clean-up the SMB file to only keep where temp_source contains data
 chunky = pd.read_csv('./data/UWS/smb_all_hr.csv',
                      chunksize=150000,
                      low_memory=False)
 
+smb_list = []
 for file in chunky:
     new = {
-       "SMB.RSSMB.T_SBE38":"temp"
+       "SMB.RSSMB.T_SBE38":"temp_source"
        }
     file.rename(new, axis=1, inplace=True)
-    L = (file.temp == 9999)
+    L = (file.temp_source == 9999)
     file = file[~L]
-    print(file.shape)
-    
-    # have it create one df for each chunk, then put a filter to remove 9999
-    # in SMB.RSSMB.T_SBE38
-    # then recombine to one df
-    
-    # if this doesnt work (still too many lines), then go through pH files first
-    # only keep good data, and then go back to SMB file and only keep the right times
+    #print(file.shape)
+    smb_list.append(file)
+
+smb = pd.concat(smb_list)
+
