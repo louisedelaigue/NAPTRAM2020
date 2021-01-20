@@ -120,13 +120,24 @@ rn = {
 
 smb.rename(rn, axis=1, inplace=True)
 
+#================================================== SUBSETS FOR TIME COMPONENT
 # subset smb df to play around
 data_small = data[0:150]
 data_small.reset_index(inplace=True, drop=True)
 smb_small = smb[0:150]
 smb_small.reset_index(inplace=True, drop=True)
 
-#%% test cumcount
-smb_small['seconds'] = np.nan
-smb_small['seconds'] = smb_small.groupby('time').cumcount()+1
+# create seconds column for smb time - TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then mark as nan)
+smb_small['second'] = smb_small.groupby('time').cumcount()+1
+smb_small['second'] = smb_small.second.map("{:02}".format)
+
+# split time into hours, minutes and seconds for pyro data
+data_small['time'] = pd.to_datetime(data_small['time'],format= '%H:%M:%S.%f').dt.time
+data_small['hour'] = data_small['time'].apply(lambda x: x.hour).map("{:02}".format)
+data_small['minute'] = data_small['time'].apply(lambda x: x.minute).map("{:02}".format)
+data_small['second'] = data_small['time'].apply(lambda x: x.second).map("{:02}".format)
+
+
+
+
 
