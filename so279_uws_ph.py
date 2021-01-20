@@ -45,11 +45,16 @@ for file in file_list:
 data = pd.concat(data_dict.values(), ignore_index=True)
 
 # clean-up the SMB file to only keep where temp_source contains data
+# load smb in chunks
 chunky = pd.read_csv('./data/UWS/smb_all_hr.csv',
                      chunksize=150000,
                      low_memory=False)
 
+# create empty list to hold cleaned up chunks
 smb_list = []
+
+# rename temp_source column to python friendly, then only keep where 
+# temp_source has data, then store cleaned up chunks into smb_list
 for file in chunky:
     new = {
        "SMB.RSSMB.T_SBE38":"temp_source"
@@ -60,5 +65,6 @@ for file in chunky:
     #print(file.shape)
     smb_list.append(file)
 
+# create 1 df holding all cleaned up smb data
 smb = pd.concat(smb_list)
 
