@@ -120,6 +120,9 @@ rn = {
 
 smb.rename(rn, axis=1, inplace=True)
 
-# subset smb df to open more easily
-smb_small = smb[0:100]
+# subset smb df to play around
+data_small = data[0:150]
+data_small.reset_index(inplace=True, drop=True)
+smb_small = smb[0:150]
 smb_small.reset_index(inplace=True, drop=True)
+
