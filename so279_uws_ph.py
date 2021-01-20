@@ -48,6 +48,7 @@ data = pd.concat(data_dict.values(), ignore_index=True)
 # load smb in chunks
 chunky = pd.read_csv('./data/UWS/smb_all_hr.csv',
                      chunksize=150000,
+                     na_values=9999,
                      low_memory=False)
 
 # create empty list to hold cleaned up chunks
@@ -56,15 +57,18 @@ smb_list = []
 # rename temp_source column to python friendly, then only keep where 
 # temp_source has data, then store cleaned up chunks into smb_list
 for file in chunky:
+    file = file.drop([file.index[0], file.index[1]])
+    file.reset_index(drop=True)
     new = {
        "SMB.RSSMB.T_SBE38":"temp_source"
        }
     file.rename(new, axis=1, inplace=True)
-    L = (file.temp_source == 9999)
-    file = file[~L]
-    #print(file.shape)
+    file.dropna(subset=['temp_source'], inplace=True)
     smb_list.append(file)
 
 # create 1 df holding all cleaned up smb data
 smb = pd.concat(smb_list)
+# smb = smb.drop([smb.index[0], smb.index[1]])
 
+# subset smb df to open more easily
+smb_small = smb[0:100]
