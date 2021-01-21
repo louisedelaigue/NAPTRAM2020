@@ -136,4 +136,8 @@ data_small['hour'] = data_small['time'].apply(lambda x: x.hour)
 data_small['minute'] = data_small['time'].apply(lambda x: x.minute)
 data_small['second'] = data_small['time'].apply(lambda x: x.second)
 
-
+# merge pH data with metadata
+data_all = smb_small.merge(right=data_small,
+                           how='inner',
+                           left_on=['day','month','year','hour','minute','second'],
+                           right_on=['day','month','year','hour','minute','second'])
