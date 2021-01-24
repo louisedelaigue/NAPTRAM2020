@@ -23,7 +23,7 @@ rn = {
       "Time [A Ch.1 Main]":"time",
       " dt (s) [A Ch.1 Main]":"sec",
       "pH [A Ch.1 Main]":"pH",
-      "Fixed Temp (?C) [A Ch.1 CompT]":"temp"
+      "Sample Temp. (°C) [A Ch.1 CompT]":"temp"
       }
 
 for file in file_list:
@@ -86,6 +86,11 @@ data_dict['2020-12-21_112915_NAPTRAM20206'] = data_dict['2020-12-21_112915_NAPTR
 # data real data only up to 195991 seconds
 L = data_dict['2020-12-28_151321_NAPTRAM20207'].sec <= 195991
 data_dict['2020-12-28_151321_NAPTRAM20207'] = data_dict['2020-12-28_151321_NAPTRAM20207'][L]
+
+# for all files, ignore first 20 min for optode stabilization
+for file in file_list:
+    L = (data_dict[file].sec > 1200)
+    data_dict[file] = data_dict[file][L]
 
 # turn dict into single df
 data = pd.concat(data_dict.values(), ignore_index=True)
