@@ -9,6 +9,7 @@ for file in file_list:
     ax1.set_xlabel('Time (s)')
     ax1.set_ylabel('pH', color=color)
     ax1.tick_params(axis='y', labelcolor=color)
+    ax1.set_xticklabels([])
     
     ax2 = ax1.twinx() # command for second y axis for temp
     
@@ -16,7 +17,11 @@ for file in file_list:
     ax2.scatter(data_dict[file].sec, data_dict[file].temp, s=2, color=color)
     ax2.set_ylabel('Temperature (°C)', color=color)
     ax2.tick_params(axis='y', labelcolor=color)
+
+    a = data_dict[file].date.min()
+    b = data_dict[file].date.max()
     
-    plt.suptitle()
+    ttl = plt.suptitle(a + ' to ' + b)
+    ttl.set_position([.5, 1.05])
     plt.tight_layout()
     plt.show()
