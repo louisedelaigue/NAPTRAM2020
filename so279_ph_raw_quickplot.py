@@ -6,5 +6,5 @@ data = data[~L]
 data.pH = data.pH.astype(float)
 
 # plot
-plt.scatter(data.index, data.pH)
+plt.scatter(data.index, data.pH, s=2)
 plt.show()
