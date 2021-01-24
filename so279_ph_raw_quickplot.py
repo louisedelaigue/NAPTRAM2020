@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 for file in file_list:
     data_dict[file].pH = data_dict[file].pH.astype(float)
     color='tab:blue'
-    fig, ax1 = plt.subplots()
+    fig, ax1 = plt.subplots(dpi=300)
     ax1.scatter(data_dict[file].sec, data_dict[file].pH, s=2, color=color)
     # ax1.set_ylim([data_dict[file].pH.min, data_dict[file].pH.max,])
     ax1.set_xlabel('Time (s)')
@@ -24,4 +24,7 @@ for file in file_list:
     ttl = plt.suptitle(a + ' to ' + b)
     ttl.set_position([.5, 1.05])
     plt.tight_layout()
+    
+    plotname = './figs/{}.png'.format(file, file)
+    plt.savefig(plotname, bbox_inches='tight', format = 'png')
     plt.show()
