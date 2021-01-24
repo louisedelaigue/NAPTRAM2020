@@ -1,7 +1,5 @@
 import pandas as pd
 import os
-import numpy as np
-from scipy import stats
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
