@@ -1,5 +1,9 @@
 import pandas as pd
 import os
+import numpy as np
+import time
+import datetime
+from datetime import timedelta
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
@@ -12,7 +16,7 @@ file_list = [file for file in os.listdir('./data/UWS') if
 # create loop to extract data
 data_dict = {} # tell python this is an empty dict so we can put the tables in
 for file in file_list:
-    fname = "./data/UWS/{}/{}.txt".format(file,file)
+    fname = "./data/UWS/{}/{}.txt".format(file, file)
     data_dict[file] = pd.read_table(fname, skiprows=22, encoding="unicode_escape")
 
 # rename headers of df inside dict and get rid off empty columns
@@ -21,14 +25,33 @@ rn = {
       "Time [A Ch.1 Main]":"time",
       " dt (s) [A Ch.1 Main]":"sec",
       "pH [A Ch.1 Main]":"pH",
-      "Fixed Temp (?C) [A Ch.1 CompT]":"temp"
+      "Sample Temp. (°C) [A Ch.1 CompT]":"temp",
+      "dphi (°) [A Ch.1 Main]":"dphi",
+      "Signal Intensity (mV) [A Ch.1 Main]":"signal_intensity",
+      "Ambient Light (mV) [A Ch.1 Main]":"ambient_light",
+      "ldev (nm) [A Ch.1 Main]":"ldev",
+      "Status [A Ch.1 Main]":"status_ph",
+      "Status [A Ch.1 CompT]":"status_temp",
       }
 
 for file in file_list:
     data_dict[file].rename(rn, axis=1, inplace=True)
+    data_dict[file]['date_time'] = np.nan
+    data_dict[file].date_time = data_dict[file].date + ' ' + data_dict[file].time
     data_dict[file].drop(columns=["Date [Comment]",
                     "Time [Comment]",
                     "Comment",
+                    "date",
+                    "time",
+                    "pH (pH) [A Ch.1 Main]",
+                    "Date [A Ch.1 CompT]",
+                    "Time [A Ch.1 CompT]",
+                    " dt (s) [A Ch.1 CompT]",
+                    "Date [A T1]",
+                    "Time [A T1]",
+                    " dt (s) [A T1]",
+                    "Sample Temp. (°C) [A T1]",
+                    "Status [A T1]",
                     "Unnamed: 23",
                     "Unnamed: 24",
                     "Unnamed: 25",
@@ -38,9 +61,79 @@ for file in file_list:
                     "Unnamed: 29"],
                     inplace=True)
     data_dict[file].dropna()
-    
+    data_dict[file] = data_dict[file][['date_time',
+                                     'sec',
+                                     'pH',
+                                     'temp',
+                                     'dphi',
+                                     'signal_intensity',
+                                     'ambient_light',
+                                     'ldev',
+                                     'status_ph',
+                                     'status_temp']]
+
+# FILES CLEAN UP
+# only keep relevant data (apply cruise notes)
+# file 1 - 2020-12-08_204002_SO279_STN1_test - real data only up to 91740 seconds,
+# then CRM for 420 seconds, then pH2 until the end
+L = data_dict['2020-12-08_204002_SO279_STN1_test'].sec <= 91740
+data_dict['2020-12-08_204002_SO279_STN1_test'] = data_dict['2020-12-08_204002_SO279_STN1_test'][L]
+# substract one hour to put data back in UTC
+sh = pd.Timedelta(1, unit='h')
+data_dict['2020-12-08_204002_SO279_STN1_test'].date_time = pd.to_datetime(data_dict['2020-12-08_204002_SO279_STN1_test'].date_time,
+                      format='%d-%m-%Y %H:%M:%S.%f') - sh
+
+# file 2 - 2020-12-11_163148_NAPTRAM2020 - no end of sampling because problem 
+# with pump which ruined the optode cap on 14/12
+# data is unstable after 251791 seconds
+L = data_dict['2020-12-11_163148_NAPTRAM2020'].sec <= 251791
+data_dict['2020-12-11_163148_NAPTRAM2020'] = data_dict['2020-12-11_163148_NAPTRAM2020'][L]
+
+# file 3 - 2020-12-15_214136_NAPTRAM20202 - NO end of sampling because problem
+# with pump which ruined the optode cap on 16/12
+# data is unstable after 79290.5 seconds
+L = data_dict['2020-12-15_214136_NAPTRAM20202'].sec <= 79290.5
+data_dict['2020-12-15_214136_NAPTRAM20202'] = data_dict['2020-12-15_214136_NAPTRAM20202'][L]
+
+# file 4 - 2020-12-17_134828_NAPTRAM20203 - stopped working on 18/12 at 11am 
+# BUT no need to use logical array as stopped optode on time
+
+# file 5 - 2020-12-18_222759_NAPTRAM20204 - in pH2 after 16h50 on 20/12
+# data real data only up to 152521 seconds
+L = data_dict['2020-12-18_222759_NAPTRAM20204'].sec <= 152521
+data_dict['2020-12-18_222759_NAPTRAM20204'] = data_dict['2020-12-18_222759_NAPTRAM20204'][L]
+
+# file 6 - 2020-12-20_182318_NAPTRAM20205 - membrane pump needed maintenance
+# BUT no need to use logical array as stopped optode on time
+
+# file 7 - 2020-12-21_112915_NAPTRAM20206 - didn't recalibrate as left optode 
+# in UWS seawater - after optode stabilization, values look fine 27/12 - 9h30ish,
+# VTD turned the pump off without telling me
+# running a CRM6 as a sample to try and estimate drift [NEXT FILE]
+# data real data only up to 511263 seconds
+L = data_dict['2020-12-21_112915_NAPTRAM20206'].sec <= 511263
+data_dict['2020-12-21_112915_NAPTRAM20206'] = data_dict['2020-12-21_112915_NAPTRAM20206'][L]
+
+# file 8 - 2020-12-27_101200_NAPTRAM2020CRM6 - VTD turned pump off
+# this file is a unique CRM to try and estimate drift in previous file
+
+# file9 - 2020-12-28_151321_NAPTRAM20207 - in pH2 after 20h40 on 30/12
+# data real data only up to 195991 seconds
+L = data_dict['2020-12-28_151321_NAPTRAM20207'].sec <= 195991
+data_dict['2020-12-28_151321_NAPTRAM20207'] = data_dict['2020-12-28_151321_NAPTRAM20207'][L]
+
+# for all files, ignore first 20 min for optode stabilization
+for file in file_list:
+    L = (data_dict[file].sec > 1200)
+    data_dict[file] = data_dict[file][L]
+    data_dict[file].date_time = pd.to_datetime(data_dict[file].date_time,
+                      format='%d-%m-%Y %H:%M:%S.%f')
+
 # turn dict into single df
 data = pd.concat(data_dict.values(), ignore_index=True)
+
+# drop ms
+data['date_time'] = data['date_time'].apply(lambda x: x.strftime('%d-%m-%Y %H:%M:%S'))
 
 # clean-up the SMB file to only keep where temp_source contains data
 # load smb in chunks
@@ -121,6 +214,7 @@ smb.rename(rn, axis=1, inplace=True)
 # SMB DATE/TIME (metadata)
 # date
 smb['date'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.date
+smb['year'] = smb['date'].apply(lambda x: x.year)
 smb['month'] = smb['date'].apply(lambda x: x.month)
 smb['day'] = smb['date'].apply(lambda x: x.day)
 
@@ -129,40 +223,51 @@ smb['hms'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.time
 smb['hour'] = smb['hms'].apply(lambda x: x.hour)
 smb['minute'] = smb['hms'].apply(lambda x: x.minute)
 
-# create seconds column for smb time - TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then  fill with nan)
+# create seconds ans ms column for smb time
+# TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then  fill with nan)
 smb['second'] = smb.groupby('time').cumcount()+1
 
-# PYRO DATE/TIME (pH)
-# split time into hours, minutes and seconds for pyro data
-# date
-data['date'] = pd.to_datetime(data['date'], format='%d-%m-%Y').dt.date
-data['month'] = data['date'].apply(lambda x: x.month)
-data['day'] = data['date'].apply(lambda x: x.day)
+# ensure all have right format
+smb['year'] = smb['year'].astype(str)
+smb['month'] = smb['month'].map("{:02}".format).astype(str)
+smb['day'] = smb['day'].map("{:02}".format).astype(str)
+smb['hour'] = smb['hour'].map("{:02}".format).astype(str)
+smb['minute'] = smb['minute'].astype(str)
+smb['second'] = smb['second'].map("{:02}".format).astype(str)
 
+# combine all
+smb['date_time'] = smb['day']+'-'+smb['month']+'-'+smb['year']+' '+smb['hour']+':'+smb['minute']+':'+smb['second']
 
-# time
-data['time'] = pd.to_datetime(data['time'], format='%H:%M:%S.%f').dt.time
-data['hour'] = data['time'].apply(lambda x: x.hour)
-data['minute'] = data['time'].apply(lambda x: x.minute)
-data['second'] = data['time'].apply(lambda x: x.second)
+# drop useless columns
+smb.drop(columns=["year",
+                  "month",
+                  "day",
+                  "hms",
+                  "hour",
+                  "minute",
+                  "second",
+                  "date",
+                  "time"],
+                  inplace=True)
 
 # merge SMB w/ PYRO
 df = data.merge(right=smb, 
-               how='inner',
-               on=['day','month','hour','minute','second'])
+                how='inner',
+                on=['date_time'])
 
+# estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
+def ta_nao(sss, sst):
+    """Estimate TA in the North Atlantic Ocean."""
+    return (
+        2305 
+        + (53.97 * (sss - 35)) 
+        + (2.74 * ((sss - 35)**2)) 
+        - (1.16 * (sst - 20)) 
+        + (0.040 * ((sst - 20)**2)) 
+        )
 
-# first plot only the PYRO data to see where gaps are, and where buffers/CRMs are
-# then figure out why only 12000 lines in df vs. 50000 in PYRO data
-
-
-
-
-
-
-
-
-
+# create new column with results in dataset
+df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
 
 
 

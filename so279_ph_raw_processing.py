@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 import numpy as np
+import time
+import datetime
 from datetime import timedelta
 
 # import spreadsheet
@@ -23,14 +25,33 @@ rn = {
       "Time [A Ch.1 Main]":"time",
       " dt (s) [A Ch.1 Main]":"sec",
       "pH [A Ch.1 Main]":"pH",
-      "Sample Temp. (°C) [A Ch.1 CompT]":"temp"
+      "Sample Temp. (°C) [A Ch.1 CompT]":"temp",
+      "dphi (°) [A Ch.1 Main]":"dphi",
+      "Signal Intensity (mV) [A Ch.1 Main]":"signal_intensity",
+      "Ambient Light (mV) [A Ch.1 Main]":"ambient_light",
+      "ldev (nm) [A Ch.1 Main]":"ldev",
+      "Status [A Ch.1 Main]":"status_ph",
+      "Status [A Ch.1 CompT]":"status_temp",
       }
 
 for file in file_list:
     data_dict[file].rename(rn, axis=1, inplace=True)
+    data_dict[file]['date_time'] = np.nan
+    data_dict[file].date_time = data_dict[file].date + ' ' + data_dict[file].time
     data_dict[file].drop(columns=["Date [Comment]",
                     "Time [Comment]",
                     "Comment",
+                    "date",
+                    "time",
+                    "pH (pH) [A Ch.1 Main]",
+                    "Date [A Ch.1 CompT]",
+                    "Time [A Ch.1 CompT]",
+                    " dt (s) [A Ch.1 CompT]",
+                    "Date [A T1]",
+                    "Time [A T1]",
+                    " dt (s) [A T1]",
+                    "Sample Temp. (°C) [A T1]",
+                    "Status [A T1]",
                     "Unnamed: 23",
                     "Unnamed: 24",
                     "Unnamed: 25",
@@ -39,9 +60,17 @@ for file in file_list:
                     "Unnamed: 28",
                     "Unnamed: 29"],
                     inplace=True)
-    data_dict[file]['date_time'] = np.nan
-    data_dict[file].date_time = data_dict[file].date + ' ' + data_dict[file].time
     data_dict[file].dropna()
+    data_dict[file] = data_dict[file][['date_time',
+                                     'sec',
+                                     'pH',
+                                     'temp',
+                                     'dphi',
+                                     'signal_intensity',
+                                     'ambient_light',
+                                     'ldev',
+                                     'status_ph',
+                                     'status_temp']]
 
 # FILES CLEAN UP
 # only keep relevant data (apply cruise notes)
@@ -97,6 +126,11 @@ data_dict['2020-12-28_151321_NAPTRAM20207'] = data_dict['2020-12-28_151321_NAPTR
 for file in file_list:
     L = (data_dict[file].sec > 1200)
     data_dict[file] = data_dict[file][L]
+    data_dict[file].date_time = pd.to_datetime(data_dict[file].date_time,
+                      format='%d-%m-%Y %H:%M:%S.%f')
 
 # turn dict into single df
 data = pd.concat(data_dict.values(), ignore_index=True)
+
+# drop ms
+data['date_time'] = data['date_time'].apply(lambda x: x.strftime('%d-%m-%Y %H:%M:%S'))
