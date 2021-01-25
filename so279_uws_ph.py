@@ -154,7 +154,7 @@ for file in chunky:
        'SMB.RSSMB.T_SBE38':'SBE38_water_temp'
        }
     file.rename(rn, axis=1, inplace=True)
-    file = file[file['SBE38_water_temp'].notna()]
+    file.dropna(subset=['SBE38_water_temp'], inplace=True)
     smb_list.append(file)
 
 # create 1 df holding all cleaned up smb data
