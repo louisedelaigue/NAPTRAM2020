@@ -4,6 +4,7 @@ import numpy as np
 import time
 import datetime
 from datetime import timedelta
+import PyCO2SYS as pyco2
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
@@ -235,5 +236,21 @@ def ta_nao(sss, sst):
         )
 
 # create new column with results in dataset
-df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
+df['ta_est'] = ta_nao(df.SBE45_sal, df.temp)
 
+# recalculate pH at in-situ temperature (SBE38) using estimated TA
+carb_dict = pyco2.CO2SYS_nd(df.ta_est, df.pH, 1, 3, 
+                      salinity=df.SBE45_sal,
+                      temperature=df.temp,
+                      temperature_out=df.SBE38_water_temp,
+                      pressure=0,
+                      pressure_out=3,
+                      total_phosphate=0.45,
+                      total_silicate=2.1,
+                      opt_pH_scale=1,
+                      opt_k_carbonic=16,
+                      opt_total_borate=1
+                      )
+
+# save in-situ pH to df
+df['pH_insitu'] = carb_dict['pH_total_out']
