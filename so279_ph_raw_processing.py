@@ -14,7 +14,7 @@ file_list = [file for file in os.listdir('./data/UWS') if
 # create loop to extract data
 data_dict = {} # tell python this is an empty dict so we can put the tables in
 for file in file_list:
-    fname = "./data/UWS/{}/{}.txt".format(file,file)
+    fname = "./data/UWS/{}/{}.txt".format(file, file)
     data_dict[file] = pd.read_table(fname, skiprows=22, encoding="unicode_escape")
 
 # rename headers of df inside dict and get rid off empty columns
