@@ -154,7 +154,7 @@ for file in chunky:
        'SMB.RSSMB.T_SBE38':'SBE38_water_temp'
        }
     file.rename(rn, axis=1, inplace=True)
-    file.dropna(subset=['SBE38_water_temp'], inplace=True)
+    file = file[file['SBE38_water_temp'].notna()]
     smb_list.append(file)
 
 # create 1 df holding all cleaned up smb data
@@ -223,11 +223,11 @@ smb['hms'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.time
 smb['hour'] = smb['hms'].apply(lambda x: x.hour)
 smb['minute'] = smb['hms'].apply(lambda x: x.minute)
 
-# create seconds ans ms column for smb time
+# create seconds column for smb time
 # TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then  fill with nan)
 smb['second'] = smb.groupby('time').cumcount()+1
 
-# ensure all have right format
+# ensure all have right format and convert to string for datetime
 smb['year'] = smb['year'].astype(str)
 smb['month'] = smb['month'].map("{:02}".format).astype(str)
 smb['day'] = smb['day'].map("{:02}".format).astype(str)
@@ -250,7 +250,7 @@ smb.drop(columns=["year",
                   "time"],
                   inplace=True)
 
-# merge SMB w/ PYRO
+# merge SMB w/ PYRO data
 df = data.merge(right=smb, 
                 how='inner',
                 on=['date_time'])
@@ -268,7 +268,4 @@ def ta_nao(sss, sst):
 
 # create new column with results in dataset
 df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
-
-
-
 
