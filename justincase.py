@@ -59,3 +59,36 @@ data_dict['2020-12-08_204002_SO279_STN1_test']['date_time'] = data_dict['2020-12
 #      return datetime.datetime.strptime(date_to_convert, '%Y-%m-%d').strftime('%d-%m-%Y')
 # data_dict['2020-12-08_204002_SO279_STN1_test']['date'] = data_dict['2020-12-08_204002_SO279_STN1_test']['date'].astype(str)
 # data_dict['2020-12-08_204002_SO279_STN1_test']['date'] = data_dict['2020-12-08_204002_SO279_STN1_test']['date'].apply(date_convert)
+
+_________________________
+# SMB DATE/TIME (metadata)
+# only keep right time range to reduce file size
+# L = 2020/12/08 00:00:01
+
+# # date
+# smb['date'] = pd.to_datetime(smb['time'], format='%Y/%m/%d %H:%M:%S').dt.date
+# smb['year'] = smb['date'].apply(lambda x: x.year)
+# smb['month'] = smb['date'].apply(lambda x: x.month)
+# smb['day'] = smb['date'].apply(lambda x: x.day)
+
+# # time
+# smb['hms'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.time
+# smb['hour'] = smb['hms'].apply(lambda x: x.hour)
+# smb['minute'] = smb['hms'].apply(lambda x: x.minute)
+# smb['second'] = smb['hms'].apply(lambda x: x.second)
+
+# create seconds column for smb time
+# TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then  fill with nan)
+# smb['second'] = smb.groupby('time').cumcount()+1
+
+
+# ensure all have right format and convert to string for datetime
+# smb['year'] = smb['year'].astype(str)
+# smb['month'] = smb['month'].map("{:02}".format).astype(str)
+# smb['day'] = smb['day'].map("{:02}".format).astype(str)
+# smb['hour'] = smb['hour'].map("{:02}".format).astype(str)
+# smb['minute'] = smb['minute'].astype(str)
+# smb['second'] = smb['second'].map("{:02}".format).astype(str)
+
+# combine all
+smb['date_time'] = smb['day']+'-'+smb['month']+'-'+smb['year']+' '+smb['hour']+':'+smb['minute']+':'+smb['second']

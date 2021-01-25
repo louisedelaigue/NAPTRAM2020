@@ -137,9 +137,11 @@ data['date_time'] = data['date_time'].apply(lambda x: x.strftime('%d-%m-%Y %H:%M
 
 # clean-up the SMB file to only keep where temp_source contains data
 # load smb in chunks
-chunky = pd.read_csv('./data/UWS/smb_all_hr.csv',
+chunky = pd.read_csv('./data/UWS/smb_all_hr.dat',
                      chunksize=150000,
                      na_values=9999,
+                     delimiter='\t',
+                     encoding= 'unicode_escape',
                      low_memory=False)
 
 # create empty list to hold cleaned up chunks
@@ -154,7 +156,7 @@ for file in chunky:
        'SMB.RSSMB.T_SBE38':'SBE38_water_temp'
        }
     file.rename(rn, axis=1, inplace=True)
-    file.dropna(subset=['SBE38_water_temp'], inplace=True)
+    # file.dropna(subset=['SBE38_water_temp'], inplace=True)
     smb_list.append(file)
 
 # create 1 df holding all cleaned up smb data
@@ -162,7 +164,7 @@ smb = pd.concat(smb_list)
 
 # rename headers with python friendly names
 rn = {
-      'date time':'time',
+      'date time':'date_time',
       'Weatherstation.PDWDC.Airtemperature':'WS_airtemp',
       'Weatherstation.PDWDC.Barometric':'WS_baro',
       'Weatherstation.PDWDC.Course':'WS_course',
@@ -211,46 +213,12 @@ rn = {
 
 smb.rename(rn, axis=1, inplace=True)
 
-# SMB DATE/TIME (metadata)
-# date
-smb['date'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.date
-smb['year'] = smb['date'].apply(lambda x: x.year)
-smb['month'] = smb['date'].apply(lambda x: x.month)
-smb['day'] = smb['date'].apply(lambda x: x.day)
+# convert SMB date format to match PyroSci date format
+def date_convert(date_to_convert):
+     return datetime.datetime.strptime(date_to_convert, '%Y/%m/%d %H:%M:%S').strftime('%d-%m-%Y %H:%M:%S')
+smb['date_time'] = smb['date_time'].apply(date_convert)
 
-# time
-smb['hms'] = pd.to_datetime(smb['time'], format='%m/%d/%Y %H:%M').dt.time
-smb['hour'] = smb['hms'].apply(lambda x: x.hour)
-smb['minute'] = smb['hms'].apply(lambda x: x.minute)
-
-# create seconds column for smb time
-# TO EDIT WITH AN IF CONDITION (if less than 60 duplicates, then  fill with nan)
-smb['second'] = smb.groupby('time').cumcount()+1
-
-# ensure all have right format and convert to string for datetime
-smb['year'] = smb['year'].astype(str)
-smb['month'] = smb['month'].map("{:02}".format).astype(str)
-smb['day'] = smb['day'].map("{:02}".format).astype(str)
-smb['hour'] = smb['hour'].map("{:02}".format).astype(str)
-smb['minute'] = smb['minute'].astype(str)
-smb['second'] = smb['second'].map("{:02}".format).astype(str)
-
-# combine all
-smb['date_time'] = smb['day']+'-'+smb['month']+'-'+smb['year']+' '+smb['hour']+':'+smb['minute']+':'+smb['second']
-
-# drop useless columns
-smb.drop(columns=["year",
-                  "month",
-                  "day",
-                  "hms",
-                  "hour",
-                  "minute",
-                  "second",
-                  "date",
-                  "time"],
-                  inplace=True)
-
-# merge SMB w/ PYRO data
+# merge SMB w/ PyroSci data
 df = data.merge(right=smb, 
                 how='inner',
                 on=['date_time'])
