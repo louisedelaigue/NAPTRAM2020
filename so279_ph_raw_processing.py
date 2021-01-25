@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import numpy as np
-from scipy import stats
+from datetime import timedelta
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
@@ -39,6 +39,8 @@ for file in file_list:
                     "Unnamed: 28",
                     "Unnamed: 29"],
                     inplace=True)
+    data_dict[file]['date_time'] = np.nan
+    data_dict[file].date_time = data_dict[file].date + ' ' + data_dict[file].time
     data_dict[file].dropna()
 
 # FILES CLEAN UP
@@ -47,6 +49,10 @@ for file in file_list:
 # then CRM for 420 seconds, then pH2 until the end
 L = data_dict['2020-12-08_204002_SO279_STN1_test'].sec <= 91740
 data_dict['2020-12-08_204002_SO279_STN1_test'] = data_dict['2020-12-08_204002_SO279_STN1_test'][L]
+# substract one hour to put data back in UTC
+sh = pd.Timedelta(1, unit='h')
+data_dict['2020-12-08_204002_SO279_STN1_test'].date_time = pd.to_datetime(data_dict['2020-12-08_204002_SO279_STN1_test'].date_time,
+                      format='%d-%m-%Y %H:%M:%S.%f') - sh
 
 # file 2 - 2020-12-11_163148_NAPTRAM2020 - no end of sampling because problem 
 # with pump which ruined the optode cap on 14/12
