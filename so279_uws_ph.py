@@ -226,6 +226,10 @@ df = data.merge(right=smb,
                 how='inner',
                 on=['date_time'])
 
+# Convert column formats to be more useful for analysis
+df["date_time"] = pd.to_datetime(df.date_time)
+df["pH"] = np.float64(df.pH)
+
 # estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
 def ta_nao(sss, sst):
     """Estimate TA in the North Atlantic Ocean."""
