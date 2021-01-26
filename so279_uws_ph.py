@@ -129,7 +129,7 @@ data_dict['2020-12-28_151321_NAPTRAM20207'] = data_dict['2020-12-28_151321_NAPTR
 for file in file_list:
     L = (data_dict[file].sec > 1200)
     data_dict[file] = data_dict[file][L]
-    data_dict[file].date_time = pd.to_datetime(data_dict[file].date_time,
+    data_dict[file]['date_time'] = pd.to_datetime(data_dict[file].date_time,
                       format='%d-%m-%Y %H:%M:%S.%f')
 
 # turn dict into single df
