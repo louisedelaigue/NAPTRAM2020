@@ -80,6 +80,8 @@ for file in file_list:
 L = data_dict['2020-12-08_204002_SO279_STN1_test'].sec <= 91740
 data_dict['2020-12-08_204002_SO279_STN1_test'] = data_dict['2020-12-08_204002_SO279_STN1_test'][L]
 # substract one hour to put data back in UTC
+# This only needs to be done for this one file because the pH laptop time was adjusted
+# after this point to be consistent with UTC.
 sh = pd.Timedelta(1, unit='h')
 data_dict['2020-12-08_204002_SO279_STN1_test'].date_time = pd.to_datetime(data_dict['2020-12-08_204002_SO279_STN1_test'].date_time,
                       format='%d-%m-%Y %H:%M:%S.%f') - sh
