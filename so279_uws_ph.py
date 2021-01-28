@@ -80,8 +80,10 @@ for file in file_list:
 L = data_dict['2020-12-08_204002_SO279_STN1_test'].sec <= 91740
 data_dict['2020-12-08_204002_SO279_STN1_test'] = data_dict['2020-12-08_204002_SO279_STN1_test'][L]
 # substract one hour to put data back in UTC
+# This only needs to be done for this one file because the pH laptop time was adjusted
+# after this point to be consistent with UTC.
 sh = pd.Timedelta(1, unit='h')
-data_dict['2020-12-08_204002_SO279_STN1_test'].date_time = pd.to_datetime(data_dict['2020-12-08_204002_SO279_STN1_test'].date_time,
+data_dict['2020-12-08_204002_SO279_STN1_test']['date_time'] = pd.to_datetime(data_dict['2020-12-08_204002_SO279_STN1_test'].date_time,
                       format='%d-%m-%Y %H:%M:%S.%f') - sh
 
 # file 2 - 2020-12-11_163148_NAPTRAM2020 - no end of sampling because problem 
@@ -127,7 +129,7 @@ data_dict['2020-12-28_151321_NAPTRAM20207'] = data_dict['2020-12-28_151321_NAPTR
 for file in file_list:
     L = (data_dict[file].sec > 1200)
     data_dict[file] = data_dict[file][L]
-    data_dict[file].date_time = pd.to_datetime(data_dict[file].date_time,
+    data_dict[file]['date_time'] = pd.to_datetime(data_dict[file].date_time,
                       format='%d-%m-%Y %H:%M:%S.%f')
 
 # turn dict into single df
@@ -224,6 +226,14 @@ df = data.merge(right=smb,
                 how='inner',
                 on=['date_time'])
 
+# Convert column formats to be more useful for analysis
+df["date_time"] = pd.to_datetime(df.date_time)
+df["pH"] = np.float64(df.pH)
+
+#
+# Save here and continue processing in a separate script
+#
+
 # estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
 def ta_nao(sss, sst):
     """Estimate TA in the North Atlantic Ocean."""
@@ -236,10 +246,10 @@ def ta_nao(sss, sst):
         )
 
 # create new column with results in dataset
-df['ta_est'] = ta_nao(df.SBE45_sal, df.temp)
+df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
 
 # recalculate pH at in-situ temperature (SBE38) using estimated TA
-carb_dict = pyco2.CO2SYS_nd(df.ta_est, df.pH, 1, 3, 
+carb_dict = pyco2.sys(df.ta_est, df.pH, 1, 3, 
                       salinity=df.SBE45_sal,
                       temperature=df.temp,
                       temperature_out=df.SBE38_water_temp,
