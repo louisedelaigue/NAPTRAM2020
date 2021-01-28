@@ -1,8 +1,8 @@
+import pandas as pd
 import PyCO2SYS as pyco2
 
 # import spreadsheet
-db = pd.read_excel('./data/UWS/df.csv',
-                   skiprows=[1])
+df = pd.read_csv('./data/UWS/df.csv')
 
 # estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
 def ta_nao(sss, sst):
