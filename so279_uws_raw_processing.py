@@ -1,10 +1,7 @@
 import pandas as pd
 import os
 import numpy as np
-import time
 import datetime
-from datetime import timedelta
-import PyCO2SYS as pyco2
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
@@ -230,35 +227,7 @@ df = data.merge(right=smb,
 df["date_time"] = pd.to_datetime(df.date_time)
 df["pH"] = np.float64(df.pH)
 
-#
-# Save here and continue processing in a separate script
-#
 
-# estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
-def ta_nao(sss, sst):
-    """Estimate TA in the North Atlantic Ocean."""
-    return (
-        2305 
-        + (53.97 * (sss - 35)) 
-        + (2.74 * ((sss - 35)**2)) 
-        - (1.16 * (sst - 20)) 
-        + (0.040 * ((sst - 20)**2)) 
-        )
+# save here and continue processing in a separate script
+df.to_csv('./data/UWS/df.csv')
 
-# create new column with results in dataset
-df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
-
-# recalculate pH at in-situ temperature (SBE38) using estimated TA
-carb_dict = pyco2.sys(df.ta_est, df.pH, 1, 3, 
-                      salinity=df.SBE45_sal,
-                      temperature=df.temp,
-                      temperature_out=df.SBE38_water_temp,
-                      pressure=0,
-                      pressure_out=3,
-                      opt_pH_scale=1,
-                      opt_k_carbonic=16,
-                      opt_total_borate=1
-                      )
-
-# save in-situ pH to df
-df['pH_insitu'] = carb_dict['pH_total_out']
