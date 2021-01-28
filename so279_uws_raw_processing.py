@@ -230,7 +230,7 @@ df["pH"] = np.float64(df.pH)
 # only keep datapoints where the difference between cell and outside temp is 
 # less than 1 degree Celcius
 df['temp_diff'] = abs(df.temp - df.SBE38_water_temp)
-df = df[df['temp_diff'] <1.0]    
+df = df[df['temp_diff'] < 1.0]    
 
 # save here and continue processing in a separate script
 df.to_csv('./data/UWS/df.csv')
