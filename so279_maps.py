@@ -27,7 +27,7 @@ def dms_to_dd(lat_or_lon):
 df['lat_dd'] = np.nan
 df['lon_dd'] = np.nan
 
-# convert lat/lon to decimals and assign back to df
+# convert lat/lon to decimals and assign back to df ######## I THINK THIS COULD BE BETTER
 lat_dd = df.lat.apply(dms_to_dd)
 df['lat_dd'] = lat_dd
 lon_dd = df.lon.apply(dms_to_dd)
@@ -83,5 +83,3 @@ ax.scatter(
 
 plt.savefig("figs/ship_track.png")
 plt.show()
-
-# MAYBE ADD STATIONS IN RED 
