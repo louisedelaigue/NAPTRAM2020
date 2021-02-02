@@ -224,7 +224,6 @@ df = data.merge(right=smb,
                 on=['date_time'])
 
 # convert column formats to be more useful for analysis
-df["date_time"] = pd.to_datetime(df.date_time)
 df["pH"] = np.float64(df.pH)
 
 # only keep datapoints where the difference between cell and outside temp is 
