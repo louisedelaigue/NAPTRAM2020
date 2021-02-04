@@ -3,7 +3,6 @@ import numpy as np
 import re
 from cartopy import crs as ccrs, feature as cfeature
 from matplotlib import pyplot as plt
-from datetime import datetime
 import matplotlib.dates as mdates
 import cmocean
 
@@ -15,23 +14,38 @@ station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 df['lat'] = df['lat'].apply(lambda x: ''.join(filter(None, x.split(' '))))
 df['lon'] = df['lon'].apply(lambda x: ''.join(filter(None, x.split(' '))))
 
-# create fx to convert coordinates from degrees to decimals
-def dms_to_dd(lat_or_lon):
-    deg, minutes, seconds, direction =  re.split('[°\.\'\"]', lat_or_lon)
-    ans = ((float(deg) + float(minutes)/60) + float(seconds)/(60*60)) * (-1 if direction in ['W', 'S'] else 1)
-    return pd.Series({
-        'decimals':ans
-        })
 
-# create columns to hold converted coordinates in decimals
-df['lat_dd'] = np.nan
-df['lon_dd'] = np.nan
+def dms_to_dd(lat_or_lon):
+    """Convert coordinates from degrees to decimals."""
+    deg, minutes, seconds, direction =  re.split('[°\.\'\"]', lat_or_lon)
+    ans = (
+        (float(deg) + float(minutes)/60) + float(seconds)/(60*60)
+    ) * (-1 if direction in ['W', 'S'] else 1)
+    return pd.Series({'decimals': ans})
+# ^ Use function docstrings to document what they do, rather than comments above them.
+#   Of course, still use comments within a function to explain what's going on, where
+#   necessary. // MPH
+
+# # create columns to hold converted coordinates in decimals
+# df['lat_dd'] = np.nan
+# df['lon_dd'] = np.nan
+# ^ You only need to create empty columns first if you're going to fill in the values
+#   one at a time, row-by-row.  That is not the case here --- df.apply() creates the
+#   entire new column in one go.  So this pre-allocation doesn't do anything. // MPH
 
 # convert lat/lon to decimals and assign back to df ######## I THINK THIS COULD BE BETTER
-lat_dd = df.lat.apply(dms_to_dd)
-df['lat_dd'] = lat_dd
-lon_dd = df.lon.apply(dms_to_dd)
-df['lon_dd'] = lon_dd
+df['lat_dd'] = df.lat.apply(dms_to_dd)
+df['lon_dd'] = df.lon.apply(dms_to_dd)
+# ^ No need to create intermediate lat_dd and lon_dd variables here // MPH
+#
+# convert datetime data to matplotlib format
+# mpl = [mdates.date2num(datetime.strptime(i, '%d-%m-%Y %H:%M:%S')) for i in df.date_time]
+df["date_time"] = pd.to_datetime(df.date_time, format='%d-%m-%Y %H:%M:%S')
+df["date_num"] = mdates.date2num(df.date_time)
+# ^ Use datetimes! // MPH
+#
+# The lat/lon and datetime conversions should be in your main processing script where df
+# is created, not here in a figure script. // MPH
 
 #%% plot ship track
 fig = plt.figure(dpi=300)
@@ -50,15 +64,12 @@ ax.add_feature(
 ax.set_extent((-40, -2, 25, 55))  # west, east, south, north limits
 ax.gridlines(alpha=0.3)
 
-# convert datetime data to matplotlib format
-mpl = [mdates.date2num(datetime.strptime(i, '%d-%m-%Y %H:%M:%S')) for i in df.date_time]
-
 # scatter data
 st = ax.scatter(
     "lon_dd",
     "lat_dd",
     data=df,
-    c=mpl,
+    c="date_num",  # we can do this, as it's now a column in the dataframe // MPH
     cmap='cmo.ice_r',
     s=0.5,
     zorder=1,
@@ -67,8 +78,7 @@ st = ax.scatter(
 
 loc = mdates.AutoDateLocator()
 scbar = plt.colorbar(st, ticks=loc,
-                 format=mdates.AutoDateFormatter(loc))
-
+                  format=mdates.AutoDateFormatter(loc))
 scbar.ax.yaxis.set_major_formatter(mdates.ConciseDateFormatter(loc))
 
 ax.scatter(
