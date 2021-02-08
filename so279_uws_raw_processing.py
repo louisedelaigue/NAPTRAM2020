@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import numpy as np
 import datetime
+import re
 
 # import spreadsheet
 db = pd.read_excel('./data/UWS/UWS_datasheet.xlsx',
@@ -223,14 +224,30 @@ df = data.merge(right=smb,
                 how='inner',
                 on=['date_time'])
 
-# convert column formats to be more useful for analysis
-df["pH"] = np.float64(df.pH)
-
 # only keep datapoints where the difference between cell and outside temp is 
 # less than 1 degree Celcius
 df['temp_diff'] = abs(df.temp - df.SBE38_water_temp)
 df = df[df['temp_diff'] < 1.0]    
 
+# convert column formats to be more useful for analysis
+df["pH"] = np.float64(df.pH)
+df["date_time"] = pd.to_datetime(df.date_time, format='%d-%m-%Y %H:%M:%S')
+
+# format lat and lon columns (remove space)
+df['lat'] = df['lat'].apply(lambda x: ''.join(filter(None, x.split(' '))))
+df['lon'] = df['lon'].apply(lambda x: ''.join(filter(None, x.split(' '))))
+
+def dms_to_dd(lat_or_lon):
+    """Convert coordinates from degrees to decimals."""
+    deg, minutes, seconds, direction =  re.split('[°\.\'\"]', lat_or_lon)
+    ans = (
+        (float(deg) + float(minutes)/60) + float(seconds)/(60*60)
+    ) * (-1 if direction in ['W', 'S'] else 1)
+    return pd.Series({'decimals': ans})
+
+# convert lat/lon to decimals
+df['lat_dd'] = df.lat.apply(dms_to_dd)
+df['lon_dd'] = df.lon.apply(dms_to_dd)
+
 # save here and continue processing in a separate script
 df.to_csv('./data/UWS/df.csv')
-
