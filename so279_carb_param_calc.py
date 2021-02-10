@@ -33,3 +33,5 @@ carb_dict = pyco2.sys(df.ta_est, df.pH, 1, 3,
 # save in-situ pH to df
 df['pH_insitu'] = carb_dict['pH_total_out']
 
+# save here and continue processing in a separate script
+df.to_csv('./data/UWS/df_carb.csv')
