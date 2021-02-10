@@ -6,9 +6,11 @@ from cartopy import crs as ccrs, feature as cfeature
 
 # import GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
 satdat = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc')
+
+# import station coordinates
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
-#%% gif of entire study area throughout the month of December 2020
+#%% create gif of entire study area throughout the month of December 2020
 
 # counter for loop
 ii = 0
