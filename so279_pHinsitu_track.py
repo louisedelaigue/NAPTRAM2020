@@ -58,6 +58,7 @@ pH_plot = ax.scatter(
 cbar = plt.colorbar(pH_plot)
 cbar.ax.set_ylabel('pH')
 
-# ax.set_yticks([-90,-60,-30,0,30,60,90])
-
+# save plot
+plt.savefig("figs/pHinsitu_track.png")
 plt.show()
+
