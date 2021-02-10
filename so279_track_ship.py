@@ -54,5 +54,5 @@ ax.scatter(
     transform=ccrs.PlateCarree()
 )
 
-plt.savefig("figs/ship_track.png")
+plt.savefig("figs/track_ship.png")
 plt.show()

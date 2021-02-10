@@ -53,6 +53,6 @@ cbar = plt.colorbar(pH_plot)
 cbar.ax.set_ylabel('pH')
 
 # save plot
-plt.savefig("figs/pHinsitu_track.png")
+plt.savefig("figs/track_pHinsitu.png")
 plt.show()
 
