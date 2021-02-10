@@ -50,7 +50,7 @@ for ii in range(0, 37):
     satdat.sla.isel(time=[ii]).plot(transform=ccrs.PlateCarree(),
                                     vmin=vmin,
                                     vmax=vmax,
-                                    cmap='gist_gray',
+                                    cmap='RdBu_r',
                                     ax=ax)
     
     # add stations to map
@@ -58,7 +58,7 @@ for ii in range(0, 37):
         "lon_dec",
         "lat_dec",
         data=station_coord,
-        c='xkcd:true blue',
+        c='xkcd:black',
         marker='^',
         s=10,
         zorder=10,
