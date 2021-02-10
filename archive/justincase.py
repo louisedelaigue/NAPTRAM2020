@@ -92,3 +92,23 @@ _________________________
 
 # combine all
 smb['date_time'] = smb['day']+'-'+smb['month']+'-'+smb['year']+' '+smb['hour']+':'+smb['minute']+':'+smb['second']
+
+#%%===================================================
+import xarray as xr
+import matplotlib.pyplot as plt
+from cartopy import crs as ccrs, feature as cfeature
+
+# read netCDF file
+sat_dat_file = './data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc'
+sat_dat = xr.open_dataset(sat_dat_file)
+
+# read data of variables inside netCDF file
+sea_level_anomaly = sat_dat.variables['sla'][:]
+lat = sat_dat.variables['latitude'][:]
+lon = sat_dat.variables['longitude'][:]
+time = sat_dat.variables['time'][:]
+
+# create dict from sea level anomaly
+dict_sla = {i:sea_level_anomaly for i, sea_level_anomaly in enumerate(sea_level_anomaly)}
+
+test = dict_sla[0]
