@@ -12,14 +12,17 @@ station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
 #%% create gif of entire study area throughout the month of December 2020
 
-# counter for loop
-ii = 0
+# # counter for loop
+# ii = 0
+# ^ this doesn't do anything // MPH
 
 # looping through satellite data and create a map for each day of data (01/12/2020 to 06/01/2021)
-for ii in range(0, 37):
+for ii in range(37):
+# ^ this creates the loop counter, you don't need to initialise it first.
+#   If your `range` begins at 0, you can leave it out --- that's the default.  // MPH
     
     # create figure
-    fig = plt.figure(dpi=300)
+    fig = plt.figure(dpi=300, figsize=[12, 12])
     ax = fig.add_subplot(projection=ccrs.Robinson(central_longitude=-30))
     
     # add Earth features (land, lakes and minor islands)
@@ -37,12 +40,19 @@ for ii in range(0, 37):
     ax.set_extent((-40, -2, 25, 55))  # west, east, south, north limits
     
     # add gridlines
-    ax.gridlines(alpha=0.3)
+    ax.gridlines(alpha=0.3, draw_labels=True)  # to show lat/lon values // MPH
     
-    # add axis labels and title
-    plt.xlabel('Longitude')
-    plt.ylabel('Latitude')
-
+    # # add axis labels and title
+    # ax.set_xlabel('Longitude') 
+    # ax.set_ylabel('Latitude')  
+    # ^ stick to the object-oriented approach, not the MATLAB-style state-based approach
+    #   (plt.xlabel) --- although you may have noticed that these labels don't appear?
+    #   This is because of the cartopy transformation.  If you want xlabel/ylabels then
+    #   you need to add them manually with ax.text().  See the top answer here:
+    #   https://stackoverflow.com/questions/35479508/cartopy-set-xlabel-set-ylabel-not-ticklabels
+    #   But I really don't think writing 'longitude' and 'latitude' on the sides this
+    #   map is at all necessary // MPH
+    
     # implement boundaries of colorbar and its ticks
     vmin, vmax = -0.6, 0.6
         
@@ -55,18 +65,21 @@ for ii in range(0, 37):
     
     # add stations to map
     ax.scatter(
-        "lon_dec",
+        "lon_dec",  # personally I would have named the original lon & lat coordinates
+                    # as lon_raw/lat_raw or something, so you can use the simpler
+                    # lon/lat in your code instead of lon_dec/lat_dec // MPH
         "lat_dec",
         data=station_coord,
-        c='xkcd:black',
+        c='k',  # a simpler way to get black // MPH
         marker='^',
         s=10,
         zorder=10,
         transform=ccrs.PlateCarree()
-    )
+    )  # stations look essentially the same as islands // MPH
 
     # tighten layout for homogeneous fig size    
-    plt.tight_layout()
+    plt.tight_layout()  # I get a warning saying that this line is being ignored, so
+                        # either fix it or remove it // MPH
 
     # save figure in output path
     plt.savefig('./figs/gif_sla/{:02n}.png'.format(ii))
