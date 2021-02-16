@@ -2,7 +2,7 @@ import pandas as pd
 import PyCO2SYS as pyco2
 
 # import spreadsheet
-df = pd.read_csv('./data/UWS/df.csv')
+df = pd.read_csv('./data/UWS/so279_df_raw_processed.csv')
 
 # estimate TA for the North Atlantic Ocean from S and T according to Lee et al. (2006)
 def ta_nao(sss, sst):
@@ -34,4 +34,4 @@ carb_dict = pyco2.sys(df.ta_est, df.pH, 1, 3,
 df['pH_insitu'] = carb_dict['pH_total_out']
 
 # save here and continue processing in a separate script
-df.to_csv('./data/UWS/df_carb.csv')
+df.to_csv('./data/UWS/so279_df.csv')

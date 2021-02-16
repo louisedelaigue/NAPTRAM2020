@@ -11,11 +11,11 @@ sla = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612
 bgcdat = xr.open_dataset('./data/global-analysis-forecast-phy-001-024_1612963010439.nc')
 
 # import cruise data
-ph = pd.read_csv('./data/UWS/df_carb.csv')
+so279_df = pd.read_csv('./data/UWS/so279_df.csv')
 
 # put data into matplotlib time friendly format
-ph['date_time'] = pd.to_datetime(ph.date_time)
-ph['datenum'] = mdates.date2num(ph.date_time)
+so279_df['date_time'] = pd.to_datetime(so279_df.date_time)
+so279_df['datenum'] = mdates.date2num(so279_df.date_time)
 
 
 # phx = (
@@ -34,21 +34,21 @@ ph['datenum'] = mdates.date2num(ph.date_time)
 # sla.isel(time=0).sla.interp(latitude=[40, 41], longitude=[-20, -21, -20.5])
 
 # 3D linear interpolation along latitude, longitude and time
-ph['sla'] = interpn(
+so279_df['sla'] = interpn(
     (mdates.date2num(sla.time.data), sla.latitude.data, sla.longitude.data), # this needs to be same order as dimensions order in xarray
     sla.sla.data,
-    (ph.datenum, ph.lat_dd, ph.lon_dd), # this needs to match above order
+    (so279_df.datenum, so279_df.lat_dd, so279_df.lon_dd), # this needs to match above order
 )
 
 # make a plot
 fig, ax = plt.subplots(dpi=300)
-ax.scatter(ph.datenum, ph.SBE45_sal, s=2, c='xkcd:aquamarine', zorder=2)
+ax.scatter(so279_df.datenum, so279_df.SBE45_sal, s=2, c='xkcd:aquamarine', zorder=2)
 ax.set_xlabel('Time')
 ax.set_ylabel('Salinity')
 
 ax2 = ax.twinx() # command for second y axis for temp
 
-ax2.scatter(ph.datenum, ph.sla, s=2, c='xkcd:true blue', zorder=1)
+ax2.scatter(so279_df.datenum, so279_df.sla, s=2, c='xkcd:true blue', zorder=1)
 ax2.set_ylabel('Sea level anomaly / m')
 
 plt.tight_layout()

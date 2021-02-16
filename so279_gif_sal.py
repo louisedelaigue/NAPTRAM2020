@@ -57,8 +57,8 @@ for ii in range(0, 37):
     
     # add stations to map
     ax.scatter(
-        "lon_dec",
-        "lat_dec",
+        "lon",
+        "lat",
         data=station_coord,
         c='xkcd:black',
         marker='^',

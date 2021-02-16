@@ -4,11 +4,11 @@ from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
 
 # import data
-df = pd.read_csv('./data/UWS/df.csv')
+so279_df = pd.read_csv('./data/UWS/so279_df.csv')
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
 # convert datetime data to matplotlib format
-df["date_num"] = mdates.date2num(df.date_time)
+so279_df["date_num"] = mdates.date2num(so279_df.date_time)
 
 # plot ship track
 fig = plt.figure(dpi=300)
@@ -31,7 +31,7 @@ ax.gridlines(alpha=0.3)
 st = ax.scatter(
     "lon_dd",
     "lat_dd",
-    data=df,
+    data=so279_df,
     c="date_num",  # we can do this, as it's now a column in the dataframe // MPH
     cmap='cmo.ice_r',
     s=0.5,

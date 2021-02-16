@@ -12,15 +12,8 @@ station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
 #%% create gif of entire study area throughout the month of December 2020
 
-# # counter for loop
-# ii = 0
-# ^ this doesn't do anything // MPH
-
 # looping through satellite data and create a map for each day of data (01/12/2020 to 06/01/2021)
 for ii in range(37):
-# ^ this creates the loop counter, you don't need to initialise it first.
-#   If your `range` begins at 0, you can leave it out --- that's the default.  // MPH
-    
     # create figure
     fig = plt.figure(dpi=300, figsize=[12, 12])
     ax = fig.add_subplot(projection=ccrs.Robinson(central_longitude=-30))
@@ -65,10 +58,8 @@ for ii in range(37):
     
     # add stations to map
     ax.scatter(
-        "lon_dec",  # personally I would have named the original lon & lat coordinates
-                    # as lon_raw/lat_raw or something, so you can use the simpler
-                    # lon/lat in your code instead of lon_dec/lat_dec // MPH
-        "lat_dec",
+        "lon",
+        "lat",
         data=station_coord,
         c='k',  # a simpler way to get black // MPH
         marker='^',
@@ -77,9 +68,6 @@ for ii in range(37):
         transform=ccrs.PlateCarree()
     )  # stations look essentially the same as islands // MPH
 
-    # tighten layout for homogeneous fig size    
-    plt.tight_layout()  # I get a warning saying that this line is being ignored, so
-                        # either fix it or remove it // MPH
 
     # save figure in output path
     plt.savefig('./figs/gif_sla/{:02n}.png'.format(ii))

@@ -1,11 +1,10 @@
 import pandas as pd
-import xarray as xr
 from matplotlib import pyplot as plt
 from cartopy import crs as ccrs, feature as cfeature
 import cmocean
 
 # import pH and SMB data
-df = pd.read_csv('./data/UWS/df_carb.csv')
+so279_df = pd.read_csv('./data/UWS/so279_df.csv')
 
 #%% make plot
 # create figure
@@ -33,14 +32,14 @@ ax.gridlines(alpha=0.3)
 cmap = cmocean.cm.dense
 
 # implement boundaries of colorbar and its ticks
-vmin, vmax = df.pH_insitu.min(), df.pH_insitu.max()
+vmin, vmax = so279_df.pH_insitu.min(), so279_df.pH_insitu.max()
 
 # plot pH data
 pH_plot = ax.scatter(
        'lon_dd',
        'lat_dd',
        c='pH_insitu',
-       data=df,
+       data=so279_df,
        cmap=cmap,
        vmin=vmin,
        vmax=vmax,
