@@ -19,9 +19,9 @@ def ta_nao(sss, sst):
 df['ta_est'] = ta_nao(df.SBE45_sal, df.SBE38_water_temp)
 
 # recalculate pH at in-situ temperature (SBE38) using estimated TA
-carb_dict = pyco2.sys(df.ta_est, df.pH, 1, 3, 
+carb_dict = pyco2.sys(df.ta_est, df.pH_cell, 1, 3, 
                       salinity=df.SBE45_sal,
-                      temperature=df.temp,
+                      temperature=df.temp_cell,
                       temperature_out=df.SBE38_water_temp,
                       pressure=0,
                       pressure_out=3,

@@ -23,8 +23,8 @@ rn = {
       "Date [A Ch.1 Main]":"date",
       "Time [A Ch.1 Main]":"time",
       " dt (s) [A Ch.1 Main]":"sec",
-      "pH [A Ch.1 Main]":"pH",
-      "Sample Temp. (°C) [A Ch.1 CompT]":"temp",
+      "pH [A Ch.1 Main]":"pH_cell",
+      "Sample Temp. (°C) [A Ch.1 CompT]":"temp_cell",
       "dphi (°) [A Ch.1 Main]":"dphi",
       "Signal Intensity (mV) [A Ch.1 Main]":"signal_intensity",
       "Ambient Light (mV) [A Ch.1 Main]":"ambient_light",
@@ -226,11 +226,11 @@ df = data.merge(right=smb,
 
 # only keep datapoints where the difference between cell and outside temp is 
 # less than 1 degree Celcius
-df['temp_diff'] = abs(df.temp - df.SBE38_water_temp)
+df['temp_diff'] = abs(df.temp_cell - df.SBE38_water_temp)
 df = df[df['temp_diff'] < 1.0]    
 
 # convert column formats to be more useful for analysis
-df["pH"] = np.float64(df.pH)
+df["pH"] = np.float64(df.pH_cell)
 df["date_time"] = pd.to_datetime(df.date_time, format='%d-%m-%Y %H:%M:%S')
 
 # format lat and lon columns (remove space)
@@ -249,8 +249,5 @@ def dms_to_dd(lat_or_lon):
 df['lat'] = df.lat.apply(dms_to_dd)
 df['lon'] = df.lon.apply(dms_to_dd)
 
-# drop first empty column
-df.drop(columns=["Unnamed: 0"], inplace=True)
-
 # save here and continue processing in a separate script
-df.to_csv('./data/UWS/so279_df_raw_processed.csv')
+df.to_csv('./data/UWS/so279_df_raw_processed.csv', index=False)
