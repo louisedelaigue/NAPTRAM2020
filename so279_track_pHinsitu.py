@@ -4,7 +4,7 @@ from cartopy import crs as ccrs, feature as cfeature
 import cmocean
 
 # import pH and SMB data
-so279_df = pd.read_csv('./data/UWS/so279_df.csv')
+so279_df = pd.read_csv('./data/so279_df.csv')
 
 #%% make plot
 # create figure

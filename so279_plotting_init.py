@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 # import spreadsheet
-so279_df = pd.read_csv('./data/UWS/so279_df.csv',
+so279_df = pd.read_csv('./data/so279_df.csv',
                    skiprows=[1])
 
 #%% plot pt-100 temp vs. SBE38

@@ -250,4 +250,4 @@ df['lat'] = df.lat.apply(dms_to_dd)
 df['lon'] = df.lon.apply(dms_to_dd)
 
 # save here and continue processing in a separate script
-df.to_csv('./data/UWS/so279_df_raw_processed.csv', index=False)
+df.to_csv('./data/so279_df_raw_processed.csv', index=False)

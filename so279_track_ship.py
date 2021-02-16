@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
 
 # import data
-so279_df = pd.read_csv('./data/UWS/so279_df.csv')
+so279_df = pd.read_csv('./data/so279_df.csv')
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
 # convert datetime data to matplotlib format

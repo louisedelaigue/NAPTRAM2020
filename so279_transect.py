@@ -12,7 +12,7 @@ sladat = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
 # import cruise data
-so279_df = pd.read_csv('./data/UWS/so279_df.csv')
+so279_df = pd.read_csv('./data/so279_df.csv')
 
 # put data into matplotlib time friendly format
 so279_df['date_time'] = pd.to_datetime(so279_df.date_time)

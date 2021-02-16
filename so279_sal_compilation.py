@@ -1,7 +1,7 @@
 import pandas as pd
 
 # import cruise data
-so279_df = pd.read_csv('./data/UWS/df_carb.csv')
+so279_df = pd.read_csv('./data/df_carb.csv')
 
 # isolate date from date_time object
 so279_df['date_time'] = pd.to_datetime(so279_df.date_time)
