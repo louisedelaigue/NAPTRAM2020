@@ -12,6 +12,6 @@ Data used in this repo comes from the SO279 cruise across the North Atlantic in 
 * _so279_gif_X.py_: (X = sal, sla or sst) creates a gif of the evolution of sea level anomaliy, surface salinity or surface temperature throughout the duration of the cruise, in the study area.
 
 * _so279_plotting_init.py_: creates a graph for:
-      1. Temperature from the optode sensor and in-situ temperature from the ships' SMB salinograph vs. time
-      2. In-situ temperature (SMB) and in-situ salinity (SMB) vs. time
-      3. In-situ pH (recalc) and in-situ temperature (SMB) vs. time
+    1. Temperature from the optode sensor and in-situ temperature from the ships' SMB salinograph vs. time
+    2. In-situ temperature (SMB) and in-situ salinity (SMB) vs. time
+    3. In-situ pH (recalc) and in-situ temperature (SMB) vs. time
