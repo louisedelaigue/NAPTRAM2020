@@ -62,8 +62,8 @@ for file in file_list:
     data_dict[file].dropna()
     data_dict[file] = data_dict[file][['date_time',
                                      'sec',
-                                     'pH',
-                                     'temp',
+                                     'pH_cell',
+                                     'temp_cell',
                                      'dphi',
                                      'signal_intensity',
                                      'ambient_light',
@@ -246,8 +246,11 @@ def dms_to_dd(lat_or_lon):
     return pd.Series({'decimals': ans})
 
 # convert lat/lon to decimals
-df['lat_dd'] = df.lat.apply(dms_to_dd)
-df['lon_dd'] = df.lon.apply(dms_to_dd)
+df['lat'] = df.lat.apply(dms_to_dd)
+df['lon'] = df.lon.apply(dms_to_dd)
+
+# drop first empty column
+df.drop(columns=["Unnamed: 0"], inplace=True)
 
 # save here and continue processing in a separate script
 df.to_csv('./data/UWS/so279_df_raw_processed.csv')
