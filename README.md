@@ -20,8 +20,8 @@ Data used in this repo comes from the SO279 cruise across the North Atlantic in 
     * In-situ temperature (SMB) and in-situ salinity (SMB) vs. time
     * In-situ pH (recalc) and in-situ temperature (SMB) vs. time
 
-*_so279_track_phinsitu.py_: creates a map showing the ship's track with pH evolution.
+* _so279_track_phinsitu.py_: creates a map showing the ship's track with pH evolution.
 
-*_so279_track_ship.py_: creates a map showing the ship's track with time indication.
+* _so279_track_ship.py_: creates a map showing the ship's track with time indication.
 
-*_so279_transect.py_: creates figure plotting transect on map, with four subsequent graphs of 1. in-situ pH, 2. surface salinity (SMB), 3. surface temperature (SMB) and 4. sea level anomaly (interpolated from CMEMS data) vs. time.
+* _so279_transect.py_: creates figure plotting transect on map, with four subsequent graphs of 1. in-situ pH, 2. surface salinity (SMB), 3. surface temperature (SMB) and 4. sea level anomaly (interpolated from CMEMS data) vs. time.
