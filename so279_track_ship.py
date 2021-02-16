@@ -29,8 +29,8 @@ ax.gridlines(alpha=0.3)
 
 # scatter data
 st = ax.scatter(
-    "lon_dd",
-    "lat_dd",
+    "lon",
+    "lat",
     data=so279_df,
     c="date_num",  # we can do this, as it's now a column in the dataframe // MPH
     cmap='cmo.ice_r',
@@ -45,8 +45,8 @@ scbar = plt.colorbar(st, ticks=loc,
 scbar.ax.yaxis.set_major_formatter(mdates.ConciseDateFormatter(loc))
 
 ax.scatter(
-    "lon_dec",
-    "lat_dec",
+    "lon",
+    "lat",
     data=station_coord,
     c='r',
     s=5,

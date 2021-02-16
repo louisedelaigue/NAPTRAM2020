@@ -35,6 +35,8 @@ rn = {
 
 for file in file_list:
     data_dict[file].rename(rn, axis=1, inplace=True)
+    data_dict[file]['filename'] = np.nan
+    data_dict[file].filename = file
     data_dict[file]['date_time'] = np.nan
     data_dict[file].date_time = data_dict[file].date + ' ' + data_dict[file].time
     data_dict[file].drop(columns=["Date [Comment]",
@@ -60,7 +62,8 @@ for file in file_list:
                     "Unnamed: 29"],
                     inplace=True)
     data_dict[file].dropna()
-    data_dict[file] = data_dict[file][['date_time',
+    data_dict[file] = data_dict[file][['filename',
+                                     'date_time',
                                      'sec',
                                      'pH_cell',
                                      'temp_cell',
