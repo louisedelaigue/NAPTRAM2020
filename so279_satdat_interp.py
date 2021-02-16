@@ -11,11 +11,11 @@ sla = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612
 bgcdat = xr.open_dataset('./data/global-analysis-forecast-phy-001-024_1612963010439.nc')
 
 # import cruise data
-so279_df = pd.read_csv('./data/so279_df.csv')
+df = pd.read_csv('./data/so279_df.csv')
 
 # put data into matplotlib time friendly format
-so279_df['date_time'] = pd.to_datetime(so279_df.date_time)
-so279_df['datenum'] = mdates.date2num(so279_df.date_time)
+df['date_time'] = pd.to_datetime(df.date_time)
+df['datenum'] = mdates.date2num(df.date_time)
 
 
 # phx = (
@@ -34,9 +34,11 @@ so279_df['datenum'] = mdates.date2num(so279_df.date_time)
 # sla.isel(time=0).sla.interp(latitude=[40, 41], longitude=[-20, -21, -20.5])
 
 # 3D linear interpolation along latitude, longitude and time
-so279_df['sla'] = interpn(
+df['sla'] = interpn(
     (mdates.date2num(sla.time.data), sla.latitude.data, sla.longitude.data), # this needs to be same order as dimensions order in xarray
     sla.sla.data,
-    (so279_df.datenum, so279_df.lat_dd, so279_df.lon_dd), # this needs to match above order
+    (df.datenum, df.lat, df.lon), # this needs to match above order
 )
 
+# save here and continue processing in a separate script
+df.to_csv('./data/so279_df.csv')

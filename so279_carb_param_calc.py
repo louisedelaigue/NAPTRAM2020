@@ -34,4 +34,4 @@ carb_dict = pyco2.sys(df.ta_est, df.pH_cell, 1, 3,
 df['pH_insitu'] = carb_dict['pH_total_out']
 
 # save here and continue processing in a separate script
-df.to_csv('./data/so279_df.csv')
+df.to_csv('./data/so279_df_carb.csv')
