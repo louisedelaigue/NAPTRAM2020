@@ -8,6 +8,7 @@ Data used in this repo comes from the SO279 cruise across the North Atlantic in 
 
 * _so279_carb_param_calc.py_: estimates Totalk Alkalinity (TA) on the cruise track from in-situ temperature and salinity (SMB salinograph on board) using Lee et al. (2006) equations. Recalculates in-situ pH from estimated TA and optode pH. Saves output dataframe to .csv.
 
+## Further processing
 * _so279_sal_compilation.py_: compiles salinity mean, min and max for each cruise day.
 
 * _so279_satdat_interp.py_: interpolates satellite data along latitude, longitude and time to match cruise data.
