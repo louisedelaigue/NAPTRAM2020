@@ -1,4 +1,4 @@
-# Data processing for SO279.
+# Data processing for SO279
 
 ## Data
 Data used in this repo comes from the SO279 cruise across the North Atlantic in the Azores Region (December 2020).
