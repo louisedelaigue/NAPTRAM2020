@@ -15,7 +15,7 @@ station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 # import cruise data
 so279_df = pd.read_csv('./data/so279_df.csv')
 
-# create list of files
+# create list of days
 so279_df['date_time'] = pd.to_datetime(so279_df.date_time)
 days_list = so279_df['date_time'].dt.day.unique()
 
@@ -60,7 +60,7 @@ for day in days_list:
         transform=ccrs.PlateCarree(),
         vmin=vmin,
         vmax=vmax,
-        cmap='RdBu_r',
+        cmap='cmo.balance',
         ax=ax1
     )
     
