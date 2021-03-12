@@ -9,22 +9,13 @@ from termcolor import colored as cl
 # import cruise data
 so279_df = pd.read_csv('./data/so279_df.csv')
 
+# remove rows with nan values (caused by SMB pump malfunctioning)
+L = ~np.isnan(so279_df['pH_insitu'])
+so279_df = so279_df[L]
+
 # create list of days
 so279_df['date_time'] = pd.to_datetime(so279_df.date_time)
 days_list = so279_df['date_time'].dt.day.unique()
-
-# create table to hold results
-so279_stats = pd.DataFrame({'day':days_list})
-so279_stats['sss_mean'] = np.nan
-so279_stats['sss_std'] = np.nan
-so279_stats['sst_mean'] = np.nan
-so279_stats['sst_std'] = np.nan
-so279_stats['ta_mean'] = np.nan
-so279_stats['ta_std'] = np.nan
-so279_stats['ph_insitu_mean'] = np.nan
-so279_stats['ph_insitu_std'] = np.nan
-so279_stats['chl_mean'] = np.nan
-so279_stats['chl_std'] = np.nan
 
 # create df with only variables for mlr
 mlr_df = pd.DataFrame()
@@ -33,8 +24,6 @@ mlr_df['sss'] = so279_df['SBE45_sal']
 mlr_df['sst'] = so279_df['SBE38_water_temp']
 mlr_df['ta'] = so279_df['ta_est']
 mlr_df['chl'] = so279_df['chl']
-
-mlr_df = mlr_df.dropna()
 
 mlr_df['ph'] = mlr_df['ph'].astype(int)
 mlr_df['sss'] = mlr_df['sss'].astype(int)
