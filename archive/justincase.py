@@ -112,3 +112,18 @@ time = sat_dat.variables['time'][:]
 dict_sla = {i:sea_level_anomaly for i, sea_level_anomaly in enumerate(sea_level_anomaly)}
 
 test = dict_sla[0]
+
+#%%===========================================================
+# function to get min max date of each file
+# draw vertical lines to separate data into original transects
+def get_xcoord(data):
+    """Get x coordinates for each min and max datenum from file."""
+    file = copy.deepcopy(data)
+    xmin = file['datenum'].min()
+    xmax = file['datenum'].max()
+    return pd.Series({
+        "xmin": xmin,
+        "xmax": xmax,
+        })
+
+xcoord = so279_df.groupby(by=['filename']).apply(get_xcoord)  

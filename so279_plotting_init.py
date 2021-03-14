@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 # import spreadsheet
-so279_df = pd.read_csv('./data/so279_df.csv',
+so279_df = pd.read_csv('./data/pH/so279_df.csv',
                    skiprows=[1])
 
 #%% plot pt-100 temp vs. SBE38
@@ -47,18 +47,26 @@ plt.show()
 #%% plot pH_insitu w/ SBE38_water_temp
 color='xkcd:aquamarine'
 fig, ax1 = plt.subplots(dpi=300, figsize=(8, 4))
-ax1.scatter(so279_df.index, so279_df.pH_insitu, s=2, color=color)
+ax1.scatter(
+    so279_df.date_time,
+    so279_df.pH_insitu,
+    s=2,
+    color='xkcd:blue violet',
+    label='pH')
+
 ax1.set_xlabel('Time')
-ax1.set_ylabel('pH', color=color)
-ax1.tick_params(axis='y', labelcolor=color)
-ax1.set_xticklabels([])
+ax1.set_ylabel('pH')
+
 
 ax2 = ax1.twinx() # command for second y axis for temp
+ax2.scatter(so279_df.date_time,
+            so279_df.SBE38_water_temp,
+            s=2,
+            color='xkcd:cyan',
+            label='Temperature (°C)')
+ax2.set_ylabel('Temperature (°C)')
 
-color='tab:blue'
-ax2.scatter(so279_df.index, so279_df.SBE38_water_temp, s=2, color=color)
-ax2.set_ylabel('Temperature (°C)', color=color)
-ax2.tick_params(axis='y', labelcolor=color)
+fig.legend()
 
 plt.tight_layout()
 plt.savefig('./figs/insitu_pH_temp.png', bbox_inches='tight', format = 'png')
