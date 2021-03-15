@@ -39,6 +39,8 @@ dbs.loc[dbs.crm_batch_189, "total_silicate"] = 2.1  # micromol/kg-sw
 dbs.loc[dbs.crm_batch_189, "total_ammonia"] = 0  # micromol/kg-sw
 
 # ---------------------------------------------------------vvv- UPDATE BELOW HERE! -vvv-
+dbs["temperature_override"] = 25.0
+
 # Assign metadata values for samples (nutrients and salinity)
 dbs.loc[~dbs.crm, "salinity"] = 35.0
 dbs.loc[~dbs.crm, "total_phosphate"] = 0
@@ -54,6 +56,7 @@ dbs["file_path"] = "data/VINDTA/SO279/"
 
 # Assign TA acid batches
 dbs["analysis_batch"] = 0
+# dbs.loc[(dbs.datenum > 112345) & (dbs.datenum < 123545), "analysis_batch"] = 1
 
 # Select which DIC CRMs to use for calibration --- only fresh bottles
 dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-1")
