@@ -48,7 +48,7 @@ dbs.loc[~dbs.crm, "total_silicate"] = 0
 dbs.loc[~dbs.crm, "total_ammonia"] = 0
 
 # Assign alkalinity metadata
-dbs["analyte_volume"] = 95.0  # TA pipette volume in ml
+dbs["analyte_volume"] = 95.939  # TA pipette volume in ml
 dbs["file_path"] = "data/VINDTA/SO279/"
 
 # Fix DIC cell ID column
