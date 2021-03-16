@@ -6,7 +6,7 @@ from cartopy import crs as ccrs, feature as cfeature
 import cmocean
 
 # import GLOBAL_ANALYSIS_FORECAST_PHY_001_024
-satdat = xr.open_dataset('./data/global-analysis-forecast-phy-001-024_1612963010439.nc')
+satdat = xr.open_dataset('./data/satdat/global-analysis-forecast-phy-001-024_1612963010439.nc')
 
 # import station coordinates
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')

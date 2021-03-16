@@ -3,16 +3,17 @@ from matplotlib import pyplot as plt
 from matplotlib.dates import DateFormatter
 
 # import spreadsheet
-so279_df = pd.read_csv('./data/pH/so279_df.csv',
+so279_df = pd.read_csv('./data/so279_df.csv',
                    skiprows=[1])
 
 # plot in-situ pH
+# color = pygame.Color("#1CFF82")
 fig, ax1 = plt.subplots(dpi=300, figsize=(8, 5))
 ax1.scatter(
     so279_df.datenum,
     so279_df.pH_insitu,
     s=2,
-    color='xkcd:cyan',
+    color='#00B0F0',
     label='pH'
 )
 
@@ -27,7 +28,7 @@ ax2 = ax1.twinx()
 ax2.scatter(so279_df.datenum,
             so279_df.SBE38_water_temp,
             s=2,
-            color='xkcd:blue violet',
+            color='#003DB9',
             label='Temperature (°C)'
 )
 
@@ -44,8 +45,8 @@ L = so279_df['filename'] == '2020-12-21_112915_NAPTRAM20206'
 xmin = so279_df['datenum'][L].min()
 xmax = so279_df['datenum'][L].max()
 
-ax1.axvline(x=xmin, linestyle='--', c='xkcd:fuchsia', alpha=0.6)
-ax1.axvline(x=xmax, linestyle='--', c='xkcd:fuchsia', alpha=0.6)    
+ax1.axvline(x=xmin, linestyle='--', c='#de0c62')
+ax1.axvline(x=xmax, linestyle='--', c='#de0c62')    
 ax1.text(737782.5, 8.07, 'STORM', fontweight='bold')
 
 # tight layout and save plot

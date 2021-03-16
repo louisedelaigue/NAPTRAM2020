@@ -6,7 +6,7 @@ import matplotlib.gridspec as gridspec
 import cmocean 
 
 # import GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
-sladat = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc')
+sladat = xr.open_dataset('./data/satdat/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc')
 
 # import station coordinates
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')

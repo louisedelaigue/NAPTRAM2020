@@ -17,7 +17,7 @@ ax1.scatter(
     file.datenum,
     file.pH_insitu,
     s=2,
-    color='xkcd:cyan',
+    color='#00B0F0',
     label='pH'
 )
 
@@ -32,7 +32,7 @@ ax2 = ax1.twinx()
 ax2.scatter(file.datenum,
             file.SBE38_water_temp,
             s=2,
-            color='xkcd:blue violet',
+            color='#003DB9',
             label='Temperature (°C)'
 )
 

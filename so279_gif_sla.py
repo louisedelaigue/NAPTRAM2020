@@ -5,17 +5,16 @@ from matplotlib import pyplot as plt
 from cartopy import crs as ccrs, feature as cfeature
 
 # import GLOBAL OCEAN GRIDDED L4 SEA SURFACE HEIGHTS AND DERIVED VARIABLES NRT
-satdat = xr.open_dataset('./data/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc')
+satdat = xr.open_dataset('./data/satdat/dataset-duacs-nrt-global-merged-allsat-phy-l4_1612878616230.nc')
 
 # import station coordinates
 station_coord = pd.read_excel('./data/stations_coordinates.xlsx')
 
-#%% create gif of entire study area throughout the month of December 2020
-
+# create gif of entire study area throughout the month of December 2020
 # looping through satellite data and create a map for each day of data (01/12/2020 to 06/01/2021)
 for ii in range(37):
     # create figure
-    fig = plt.figure(dpi=300, figsize=[12, 12])
+    fig = plt.figure(dpi=300, figsize=[5, 5])
     ax = fig.add_subplot(projection=ccrs.Robinson(central_longitude=-30))
     
     # add Earth features (land, lakes and minor islands)
@@ -33,7 +32,7 @@ for ii in range(37):
     ax.set_extent((-40, -2, 25, 55))  # west, east, south, north limits
     
     # add gridlines
-    ax.gridlines(alpha=0.3, draw_labels=True)  # to show lat/lon values // MPH
+    ax.gridlines(alpha=0.3) #draw_labels=True)
     
     # # add axis labels and title
     # ax.set_xlabel('Longitude') 
@@ -53,21 +52,21 @@ for ii in range(37):
     satdat.sla.isel(time=[ii]).plot(transform=ccrs.PlateCarree(),
                                     vmin=vmin,
                                     vmax=vmax,
-                                    cmap='RdBu_r',
+                                    cmap='bwr',
                                     ax=ax)
-    
+
     # add stations to map
     ax.scatter(
         "lon",
         "lat",
         data=station_coord,
-        c='k',  # a simpler way to get black // MPH
-        marker='^',
-        s=10,
+        c='xkcd:reddish pink', 
+        #edgecolor='k',
+        marker='x',
+        s=60,
         zorder=10,
         transform=ccrs.PlateCarree()
-    )  # stations look essentially the same as islands // MPH
-
+    )  
 
     # save figure in output path
     plt.savefig('./figs/gif_sla/{:02n}.png'.format(ii))
