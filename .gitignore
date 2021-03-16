@@ -3,4 +3,4 @@ data/pH/UWS/smb_all_hr.csv
 data/pH/UWS/smb_all_hr.dat
 
 # ignore sst and sal satellite data file
-data/pH/global-analysis-forecast-phy-001-024_1612963010439.nc
+data/satdat/global-analysis-forecast-phy-001-024_1612963010439.nc
